@@ -2,16 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Fonts setting */
+
+@font-face {
+  font-family: 'sukhumvit';
+  src: url('assets/fonts/sukhumvit-set/SukhumvitSet-Text.ttf') format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'sukhumvit-bold';
+  src: url('assets/fonts/sukhumvit-set/SukhumvitSet-Bold.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'sukhumvit-semibold';
+  src: url('assets/fonts/sukhumvit-set/SukhumvitSet-SemiBold.ttf') format('truetype');
+}
+
+
+/* Default setting */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'sukhumvit'; */
+  /* font-family: 'Sriracha', cursive; */
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+.sukhumvit {
+  font-family: 'sukhumvit';
+}
+
+.sukhumvit-semibold {
+  font-family: 'sukhumvit-semibold';
+}
+
+.sukhumvit-bold {
+  font-family: 'sukhumvit-bold';
+}
+
