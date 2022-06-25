@@ -1,4 +1,3 @@
-// import { ScrollContainer, ScrollPage } from 'components/scrollPage'
 import { ScrollContainer, ScrollPage } from 'components/scrollPage'
 import React from 'react'
 
