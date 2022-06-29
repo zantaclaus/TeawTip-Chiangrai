@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import Highlight from 'components/highlight';
-import AnimateInView from 'components/animateInView';
+import Highlight from 'components/common/highlight';
+import AnimateInView from 'components/common/animateInView';
 import temple from 'assets/images/temple4.jpg';
 
 const Example: React.FC = (): JSX.Element => {
