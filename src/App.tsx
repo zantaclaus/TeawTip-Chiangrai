@@ -3,6 +3,7 @@ import MySpeedDial from 'components/speedDial';
 import ArchitectureHeader from 'pages/architecture/header';
 import WadRongKhun from 'pages/architecture/wadRongKhun';
 import BeliefHeader from 'pages/belief/header';
+import DressHeader from 'pages/dress/header';
 import FoodHeader from 'pages/food/header';
 import Hero from 'pages/hero';
 import React from 'react';
@@ -29,6 +30,10 @@ const App: React.FC = (): JSX.Element => {
       {/* *********** Food Page ************ */}
       <ScrollPage>
         <FoodHeader />
+      </ScrollPage>
+      {/* *********** Dress Page ************ */}
+      <ScrollPage>
+        <DressHeader />
       </ScrollPage>
     </ScrollContainer>
   );

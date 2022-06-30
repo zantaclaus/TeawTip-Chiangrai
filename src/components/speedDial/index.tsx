@@ -6,10 +6,10 @@ import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import AccessibilityIcon from '@mui/icons-material/Accessibility';
 
 const actions = [
-  { icon: <AccessibilityIcon />, name: 'เครื่องแต่งกาย', href: '#dress' },
-  { icon: <AutoAwesomeIcon />, name: 'ความเชื่อ', href: '#belief' },
-  { icon: <FastfoodIcon />, name: 'อาหาร', href: '#food' },
-  { icon: <ApartmentIcon />, name: 'สถาปัตยกรรม', href: '#architecture' },
+  { icon: <AccessibilityIcon />, name: 'เครื่องแต่งกาย', href: 'dress' },
+  { icon: <AutoAwesomeIcon />, name: 'ความเชื่อ', href: 'belief' },
+  { icon: <FastfoodIcon />, name: 'อาหาร', href: 'food' },
+  { icon: <ApartmentIcon />, name: 'สถาปัตยกรรม', href: 'architecture' },
 ];
 
 const MySpeedDial = () => {
@@ -30,8 +30,18 @@ const MySpeedDial = () => {
       {actions.map((action) => (
         <SpeedDialAction
           key={action.name}
-          icon={<a href={action.href}>{action.icon}</a>}
+          icon={
+            action.icon
+            // <a href={'#' + action.href}>{action.icon}</a>
+            // <Link to={'#' + action.href} smooth>
+            //   {action.icon}
+            // </Link>
+          }
           tooltipTitle={action.name}
+          onClick={() => {
+            const destination = document.getElementById(action.href);
+            destination?.scrollIntoView({ behavior: 'smooth' });
+          }}
         />
       ))}
     </SpeedDial>
