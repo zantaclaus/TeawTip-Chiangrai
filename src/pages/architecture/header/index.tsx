@@ -1,11 +1,7 @@
 import React from 'react';
 
 const ArchitectureHeader = () => {
-    return (
-        <div>
-            สถาปัตยกรรม
-        </div>
-    );
+  return <section id='architecture'>สถาปัตยกรรม</section>;
 };
 
 export default ArchitectureHeader;

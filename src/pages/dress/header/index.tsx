@@ -1,7 +1,7 @@
 import React from 'react';
 
 const DressHeader = () => {
-  return <div>Dress</div>;
+  return <section id='dress'>Dress</section>;
 };
 
 export default DressHeader;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const FoodHeader = () => {
-  return <div>Food</div>;
+  return <section id='food'>Food</section>;
 };
 
 export default FoodHeader;

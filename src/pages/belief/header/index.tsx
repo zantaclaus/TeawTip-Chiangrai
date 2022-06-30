@@ -1,7 +1,7 @@
 import React from 'react';
 
 const BeliefHeader = () => {
-  return <div>Belief</div>;
+  return <section id='belief'>Belief</section>;
 };
 
 export default BeliefHeader;
