@@ -30,13 +30,7 @@ const MySpeedDial = () => {
       {actions.map((action) => (
         <SpeedDialAction
           key={action.name}
-          icon={
-            action.icon
-            // <a href={'#' + action.href}>{action.icon}</a>
-            // <Link to={'#' + action.href} smooth>
-            //   {action.icon}
-            // </Link>
-          }
+          icon={action.icon}
           tooltipTitle={action.name}
           onClick={() => {
             const destination = document.getElementById(action.href);
