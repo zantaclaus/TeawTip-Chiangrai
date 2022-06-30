@@ -1,11 +1,11 @@
 import React from 'react';
-import hero from 'assets/images/hero.jpeg';
+import { images } from 'assets/images';
 import { motion } from 'framer-motion';
 
 const Hero: React.FC = (): JSX.Element => {
   return (
     <section
-      style={{ backgroundImage: `url(${hero})` }}
+      style={{ backgroundImage: `url(${images.hero})` }}
       className='w-full h-full relative flex justify-center items-center bg-cover'
     >
       <div className=''>
