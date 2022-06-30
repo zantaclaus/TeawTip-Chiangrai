@@ -1,5 +1,6 @@
 import React from 'react';
 import { SpeedDial, SpeedDialAction, SpeedDialIcon } from '@mui/material';
+import HomeIcon from '@mui/icons-material/Home';
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
@@ -10,6 +11,7 @@ const actions = [
   { icon: <AutoAwesomeIcon />, name: 'ความเชื่อ', href: 'belief' },
   { icon: <FastfoodIcon />, name: 'อาหาร', href: 'food' },
   { icon: <ApartmentIcon />, name: 'สถาปัตยกรรม', href: 'architecture' },
+  { icon: <HomeIcon />, name: 'หน้าแรก', href: 'hero' },
 ];
 
 const MySpeedDial = () => {
