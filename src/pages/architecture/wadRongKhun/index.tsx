@@ -13,8 +13,8 @@ const WadRongKhun = () => (
     <div className='flex items-center'>
       <img src={images.temple} alt='' className='w-[650px] rounded-xl shadow-xl 2xl:w-[800px]' />
       <div className='w-[550px] h-fit bg-white rounded-xl px-8 py-8 relative right-20 shadow-xl 2xl:w-[620px]'>
-        <motion.h1 className='mb-2 sukhumvit-bold text-3xl'>วัดร่องขุ่น</motion.h1>
-        <h3 className='sukhumvit text-lg 2xl:text-xl'>
+        <motion.h1 className='header'>วัดร่องขุ่น</motion.h1>
+        <h3 className='tagline'>
           ออกแบบและสร้างโดย อาจารย์เฉลิมชัย โฆษิตพิพัฒน์ มีการผสาน
           <Highlight>วัฒนธรรมล้านนา</Highlight>ได้อย่างกลมกลืน
           ทั้งลวดลายปูนปั้นประดับกระจกและจิตรกรรรมฝาผนังขนาดใหญ่

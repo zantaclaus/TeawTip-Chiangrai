@@ -1,5 +1,6 @@
 import { ScrollContainer, ScrollPage } from 'components/scrollPage';
 import MySpeedDial from 'components/speedDial';
+import BanDam from 'pages/architecture/banDam';
 import ArchitectureHeader from 'pages/architecture/header';
 import WadRongKhun from 'pages/architecture/wadRongKhun';
 import BeliefHeader from 'pages/belief/header';
@@ -22,6 +23,9 @@ const App: React.FC = (): JSX.Element => {
       </ScrollPage>
       <ScrollPage>
         <WadRongKhun />
+      </ScrollPage>
+      <ScrollPage>
+        <BanDam />
       </ScrollPage>
       {/* *********** Belief Page ************ */}
       <ScrollPage>

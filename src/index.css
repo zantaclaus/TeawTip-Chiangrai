@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .header {
+    @apply mb-2 sukhumvit-bold text-3xl
+  }
+  .tagline {
+    @apply sukhumvit text-lg 2xl:text-xl
+  }
+}
+
 /* Fonts setting */
 
 @font-face {
