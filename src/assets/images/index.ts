@@ -4,9 +4,9 @@ import wadRongKhun from './wadRongKhun.png';
 import banDam from './banDam.png';
 import banDamBg from './banDamBg.png';
 import doiDinDang from './doiDinDang.png';
-import doiDinDangBg from './doiDinDangBG.png';
+import doiDinDangBg from './doiDinDangBg.png';
 import watSueaLongTen from './watSueaLongTen.png';
-import watSueaLongTenBg from './watSueaLongTenBG.png';
+import watSueaLongTenBg from './watSueaLongTenBg.png';
 
 export const images = {
   hero,
