@@ -3,7 +3,7 @@ import { images } from 'assets/images';
 import { motion } from 'framer-motion';
 import Highlight from 'components/common/highlight';
 
-const WadRongKhun = () => (
+const WadRongKhun: React.FC = (): JSX.Element => (
   <section className='relative h-screen w-screen flex justify-center items-center'>
     <div
       style={{ backgroundImage: `url(${images.wadRongKhun})` }}
