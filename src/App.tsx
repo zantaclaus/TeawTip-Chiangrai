@@ -29,7 +29,7 @@ const App: React.FC = (): JSX.Element => {
         children={
           <PageHeader
             id='architecture'
-            image={images.header3}
+            image={images.header6}
             text={
               <>
                 สถา<span className='pachautid tracking-wider'>ปั</span>ตยกรรม

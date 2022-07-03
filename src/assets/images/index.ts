@@ -2,6 +2,8 @@ import header1 from './header1.jpeg';
 import header2 from './header2.png';
 import header3 from './header3.png';
 import header4 from './header4.png';
+import header5 from './header5.png';
+import header6 from './header6.jpeg';
 import hero from './hero.jpeg';
 import temple from './temple.jpeg';
 import wadRongKhun from './wadRongKhun.png';
@@ -41,6 +43,8 @@ export const images = {
   header2,
   header3,
   header4,
+  header5,
+  header6,
   hangLe,
   hangLeBg,
   kaosoi1,
