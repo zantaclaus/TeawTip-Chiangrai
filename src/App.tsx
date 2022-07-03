@@ -17,53 +17,49 @@ const App: React.FC = (): JSX.Element => {
   return (
     <ScrollContainer>
       <MySpeedDial />
+
       {/* *********** Hero Page ************ */}
-      <ScrollPage>
-        <Hero />
-      </ScrollPage>
+      <ScrollPage children={<Hero />} />
+
       {/* *********** Architecture Page ************ */}
-      <ScrollPage>
-        <PageHeader
-          id='architecture'
-          image={images.header1}
-          text={
-            <>
-              สถา<span className='pachautid tracking-wider'>ปั</span>ตยกรรม
-            </>
-          }
-        />
-      </ScrollPage>
-      <ScrollPage>
-        <WadRongKhun />
-      </ScrollPage>
-      <ScrollPage>
-        <BanDam />
-      </ScrollPage>
-      <ScrollPage>
-        <WatSueaLongTen />
-      </ScrollPage>
-      <ScrollPage>
-        <DoiDinDang />
-      </ScrollPage>
+      <ScrollPage
+        children={
+          <PageHeader
+            id='architecture'
+            image={images.header1}
+            text={
+              <>
+                สถา<span className='pachautid tracking-wider'>ปั</span>ตยกรรม
+              </>
+            }
+          />
+        }
+      />
+      <ScrollPage children={<WadRongKhun />} />
+      <ScrollPage children={<BanDam />} />
+      <ScrollPage children={<WatSueaLongTen />} />
+      <ScrollPage children={<DoiDinDang />} />
+
       {/* *********** Food Page ************ */}
-      <ScrollPage>
-        <PageHeader id='food' image={images.header1} text={<>อาหาร</>} />
-      </ScrollPage>
+      <ScrollPage children={<PageHeader id='food' image={images.header1} text={<>อาหาร</>} />} />
       <ScrollPage children={<KaoSoi />} />
       <ScrollPage children={<HengLe />} />
       <ScrollPage children={<NamNgew />} />
-      {/* *********** Dress Page ************ */}
-      <ScrollPage>
-        <PageHeader
-          id='dress'
-          image={images.header1}
-          text={
-            <>
-              การแ<span className='pachautid tracking-wider'>ต่</span>งกาย
-            </>
-          }
-        />
-      </ScrollPage>
+
+      {/* *********** Cuture Page ************ */}
+      <ScrollPage
+        children={
+          <PageHeader
+            id='dress'
+            image={images.header1}
+            text={
+              <>
+                ศิลปะ<span className='pachautid tracking-wider'>วั</span>ฒนธรรม
+              </>
+            }
+          />
+        }
+      />
     </ScrollContainer>
   );
 };
