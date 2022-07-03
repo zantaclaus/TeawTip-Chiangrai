@@ -1,3 +1,4 @@
+/* eslint-disable react/no-children-prop */
 import { images } from 'assets/images';
 import PageHeader from 'components/pageHeader';
 import { ScrollContainer, ScrollPage } from 'components/scrollPage';
@@ -6,6 +7,8 @@ import BanDam from 'pages/architecture/banDam';
 import DoiDinDang from 'pages/architecture/doiDinDang';
 import WadRongKhun from 'pages/architecture/wadRongKhun';
 import WatSueaLongTen from 'pages/architecture/watSueaLongTen';
+import HengLe from 'pages/food/hangLe';
+import KaoSoi from 'pages/food/kaoSoi';
 import Hero from 'pages/hero';
 import React from 'react';
 
@@ -45,6 +48,8 @@ const App: React.FC = (): JSX.Element => {
       <ScrollPage>
         <PageHeader id='food' image={images.header1} text={<>อาหาร</>} />
       </ScrollPage>
+      <ScrollPage children={<KaoSoi />} />
+      <ScrollPage children={<HengLe />} />
       {/* *********** Dress Page ************ */}
       <ScrollPage>
         <PageHeader
