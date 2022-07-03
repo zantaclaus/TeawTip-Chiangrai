@@ -5,6 +5,8 @@ import banDam from './banDam.png';
 import banDamBg from './banDamBG.png';
 import doiDinDang from './doiDinDang.png';
 import doiDinDangBg from './doiDinDangBG.png';
+import watSueaLongTen from './watSueaLongTen.png';
+import watSueaLongTenBg from './watSueaLongTenBG.png';
 
 export const images = {
   hero,
@@ -14,4 +16,6 @@ export const images = {
   banDamBg,
   doiDinDang,
   doiDinDangBg,
+  watSueaLongTen,
+  watSueaLongTenBg,
 };

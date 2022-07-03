@@ -4,6 +4,7 @@ import BanDam from 'pages/architecture/banDam';
 import DoiDinDang from 'pages/architecture/doiDinDang';
 import ArchitectureHeader from 'pages/architecture/header';
 import WadRongKhun from 'pages/architecture/wadRongKhun';
+import WatSueaLongTen from 'pages/architecture/watSueaLongTen';
 import BeliefHeader from 'pages/belief/header';
 import DressHeader from 'pages/dress/header';
 import FoodHeader from 'pages/food/header';
@@ -24,6 +25,9 @@ const App: React.FC = (): JSX.Element => {
       </ScrollPage>
       <ScrollPage>
         <WadRongKhun />
+      </ScrollPage>
+      <ScrollPage>
+        <WatSueaLongTen />
       </ScrollPage>
       <ScrollPage>
         <BanDam />
