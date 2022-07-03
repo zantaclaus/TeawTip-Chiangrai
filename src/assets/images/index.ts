@@ -24,7 +24,7 @@ import kuaySaRarkBg from './kuaySaRarkBg.jpeg';
 import namNgew1 from './namNgew1.jpg';
 import namNgew2 from './namNgew2.jpg';
 import namNgewBg from './namNgewBg.jpg';
-import linJee from './LinJee.png';
+import linJee from './linJee.png';
 import linJeeBg from './linJeeBg.png';
 import bongFire from './bongFire.png';
 import bongFireBg from './bongFireBg.png';
