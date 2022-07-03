@@ -11,7 +11,7 @@ const PageHeader: React.FC<IPageHeader> = ({ id, image, text }: IPageHeader): JS
     <section id={id} className='w-screen h-screen flex justify-center items-center relative'>
       <div
         style={{ backgroundImage: `url(${image})` }}
-        className='w-full h-full absolute brightness-50 bg-cover -z-10'
+        className='w-full h-full absolute brightness-[0.3] bg-cover bg-center -z-10'
       ></div>
 
       <div className='relative'>

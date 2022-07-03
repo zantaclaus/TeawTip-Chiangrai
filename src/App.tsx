@@ -29,7 +29,7 @@ const App: React.FC = (): JSX.Element => {
         children={
           <PageHeader
             id='architecture'
-            image={images.header1}
+            image={images.header3}
             text={
               <>
                 สถา<span className='pachautid tracking-wider'>ปั</span>ตยกรรม
@@ -44,7 +44,7 @@ const App: React.FC = (): JSX.Element => {
       <ScrollPage children={<DoiDinDang />} />
 
       {/* *********** Food Page ************ */}
-      <ScrollPage children={<PageHeader id='food' image={images.header1} text={<>อาหาร</>} />} />
+      <ScrollPage children={<PageHeader id='food' image={images.header4} text={<>อาหาร</>} />} />
       <ScrollPage children={<KaoSoi />} />
       <ScrollPage children={<HengLe />} />
       <ScrollPage children={<NamNgew />} />

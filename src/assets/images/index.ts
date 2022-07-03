@@ -1,5 +1,7 @@
 import header1 from './header1.jpeg';
 import header2 from './header2.png';
+import header3 from './header3.png';
+import header4 from './header4.png';
 import hero from './hero.jpeg';
 import temple from './temple.jpeg';
 import wadRongKhun from './wadRongKhun.png';
@@ -22,6 +24,8 @@ import namNgew2 from './namNgew2.jpg';
 import namNgewBg from './namNgewBg.jpg';
 import linJee from './LinJee.png';
 import linJeeBg from './linJeeBg.png';
+import bongFire from './bongFire.png';
+import bongFireBg from './bongFireBg.png';
 
 export const images = {
   hero,
@@ -35,6 +39,8 @@ export const images = {
   watSueaLongTenBg,
   header1,
   header2,
+  header3,
+  header4,
   hangLe,
   hangLeBg,
   kaosoi1,
@@ -48,4 +54,6 @@ export const images = {
   namNgewBg,
   linJee,
   linJeeBg,
+  bongFire,
+  bongFireBg,
 };
