@@ -15,9 +15,13 @@ import kaosoi1 from './kaosoi1.png';
 import kaosoi2 from './kaosoi2.png';
 import kaosoi3 from './kaosoi3.png';
 import kaosoiBg from './kaosoiBg.png';
+import kuaySaRark from './kuaySaRark.jpeg';
+import kuaySaRarkBg from './kuaySaRarkBg.jpeg';
 import namNgew1 from './namNgew1.jpg';
 import namNgew2 from './namNgew2.jpg';
 import namNgewBg from './namNgewBg.jpg';
+import linJee from './LinJee.png';
+import linJeeBg from './linJeeBg.png';
 
 export const images = {
   hero,
@@ -37,7 +41,11 @@ export const images = {
   kaosoi2,
   kaosoi3,
   kaosoiBg,
+  kuaySaRark,
+  kuaySaRarkBg,
   namNgew1,
   namNgew2,
   namNgewBg,
+  linJee,
+  linJeeBg,
 };

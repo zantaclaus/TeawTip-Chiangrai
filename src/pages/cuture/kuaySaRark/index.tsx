@@ -5,8 +5,8 @@ const KuaySaRark: React.FC = (): JSX.Element => {
   return (
     <section className='relative h-screen w-screen flex justify-center items-center'>
       <div
-        style={{ backgroundImage: `url(${images.kaosoiBg})` }}
-        className='w-full h-full absolute brightness-[0.2] bg-cover bg-bottom -z-10'
+        style={{ backgroundImage: `url(${images.kuaySaRarkBg})` }}
+        className='w-full h-full absolute brightness-[0.1] bg-cover bg-bottom -z-10'
       ></div>
 
       <div className='flex p-12 gap-6 max-w-[1200px] relative '>
@@ -15,7 +15,7 @@ const KuaySaRark: React.FC = (): JSX.Element => {
         <div className='w-32 h-2 bg-white absolute bottom-0 right-0' />
         <div className='w-2 h-40 bg-white absolute bottom-0 right-0' />
 
-        <img src={images.kaosoi2} alt='' className='w-[500px] rounded-xl shadow-xl' />
+        <img src={images.kuaySaRark} alt='' className='w-[500px] rounded-xl shadow-xl' />
         <div className='w-[800px] text-white rounded-xl px-8 pt-8  shadow-xl relative'>
           <h1 className='header mb-3'>ประเพณีตานก๋วยสลาก</h1>
           <h3 className='tagline'>

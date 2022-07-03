@@ -5,7 +5,7 @@ const LinJee: React.FC = (): JSX.Element => {
   return (
     <section className='relative h-screen w-screen flex justify-center items-center'>
       <div
-        style={{ backgroundImage: `url(${images.kaosoiBg})` }}
+        style={{ backgroundImage: `url(${images.linJeeBg})` }}
         className='w-full h-full absolute brightness-[0.2] bg-cover bg-bottom -z-10'
       ></div>
 
@@ -27,7 +27,7 @@ const LinJee: React.FC = (): JSX.Element => {
             เพิ่มเติม
           </button>
         </div>
-        <img src={images.kaosoi2} alt='' className='w-[500px] rounded-xl shadow-xl' />
+        <img src={images.linJee} alt='' className='w-[500px] rounded-xl shadow-xl' />
       </div>
     </section>
   );
