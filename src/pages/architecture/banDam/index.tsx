@@ -17,7 +17,7 @@ const BanDam: React.FC = (): JSX.Element => {
     <section className='relative h-screen w-screen flex justify-center items-center'>
       <div
         style={{ backgroundImage: `url(${images.banDamBg})` }}
-        className='w-full h-full absolute brightness-50 bg-cover bg-bottom -z-10'
+        className='w-full h-full absolute brightness-[0.3] bg-cover bg-bottom -z-10'
       ></div>
 
       <div className='max-w-[1000px] relative bottom-3'>

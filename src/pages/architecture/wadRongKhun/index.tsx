@@ -19,7 +19,7 @@ const WadRongKhun: React.FC = (): JSX.Element => {
     <section className='relative h-screen w-screen flex justify-center items-center'>
       <div
         style={{ backgroundImage: `url(${images.wadRongKhun})` }}
-        className='w-full h-full absolute brightness-50 bg-cover -z-10'
+        className='w-full h-full absolute brightness-[0.3] bg-cover -z-10'
       ></div>
 
       <div className='flex items-center'>

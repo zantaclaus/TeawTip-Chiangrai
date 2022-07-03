@@ -7,6 +7,7 @@ import BanDam from 'pages/architecture/banDam';
 import DoiDinDang from 'pages/architecture/doiDinDang';
 import WadRongKhun from 'pages/architecture/wadRongKhun';
 import WatSueaLongTen from 'pages/architecture/watSueaLongTen';
+import KuaySaRark from 'pages/cuture/kuaySaRark';
 import HengLe from 'pages/food/hangLe';
 import KaoSoi from 'pages/food/kaoSoi';
 import NamNgew from 'pages/food/namNgew';
@@ -60,6 +61,7 @@ const App: React.FC = (): JSX.Element => {
           />
         }
       />
+      <ScrollPage children={<KuaySaRark />} />
     </ScrollContainer>
   );
 };
