@@ -28,6 +28,11 @@
   src: url('assets/fonts/sukhumvit-set/SukhumvitSet-SemiBold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'pachautid';
+  src: url('assets/fonts/pachautid/B2_SIGN_Pachautid_N.ttf') format('truetype');
+}
+
 /*
  * Disable scrollbar
  */
@@ -94,6 +99,10 @@ h5 {
 
 h6 {
   font-size: 0.75rem;
+}
+
+.pachautid {
+  font-family: 'pachautid';
 }
 
 .sukhumvit {

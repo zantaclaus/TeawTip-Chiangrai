@@ -7,6 +7,7 @@ import doiDinDang from './doiDinDang.png';
 import doiDinDangBg from './doiDinDangBg.png';
 import watSueaLongTen from './watSueaLongTen.png';
 import watSueaLongTenBg from './watSueaLongTenBg.png';
+import header1 from './header1.jpeg';
 
 export const images = {
   hero,
@@ -18,4 +19,5 @@ export const images = {
   doiDinDangBg,
   watSueaLongTen,
   watSueaLongTenBg,
+  header1,
 };

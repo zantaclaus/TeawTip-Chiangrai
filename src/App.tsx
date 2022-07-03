@@ -1,13 +1,11 @@
+import { images } from 'assets/images';
+import PageHeader from 'components/pageHeader';
 import { ScrollContainer, ScrollPage } from 'components/scrollPage';
 import MySpeedDial from 'components/speedDial';
 import BanDam from 'pages/architecture/banDam';
 import DoiDinDang from 'pages/architecture/doiDinDang';
-import ArchitectureHeader from 'pages/architecture/header';
 import WadRongKhun from 'pages/architecture/wadRongKhun';
 import WatSueaLongTen from 'pages/architecture/watSueaLongTen';
-import BeliefHeader from 'pages/belief/header';
-import DressHeader from 'pages/dress/header';
-import FoodHeader from 'pages/food/header';
 import Hero from 'pages/hero';
 import React from 'react';
 
@@ -21,12 +19,19 @@ const App: React.FC = (): JSX.Element => {
       </ScrollPage>
       {/* *********** Architecture Page ************ */}
       <ScrollPage>
-        <ArchitectureHeader />
+        <PageHeader
+          id='architecture'
+          image={images.header1}
+          text={
+            <>
+              สถา<span className='pachautid tracking-wider'>ปั</span>ตยกรรม
+            </>
+          }
+        />
       </ScrollPage>
       <ScrollPage>
         <WadRongKhun />
       </ScrollPage>
-
       <ScrollPage>
         <BanDam />
       </ScrollPage>
@@ -36,17 +41,21 @@ const App: React.FC = (): JSX.Element => {
       <ScrollPage>
         <DoiDinDang />
       </ScrollPage>
-      {/* *********** Belief Page ************ */}
-      <ScrollPage>
-        <BeliefHeader />
-      </ScrollPage>
       {/* *********** Food Page ************ */}
       <ScrollPage>
-        <FoodHeader />
+        <PageHeader id='food' image={images.header1} text={<>อาหาร</>} />
       </ScrollPage>
       {/* *********** Dress Page ************ */}
       <ScrollPage>
-        <DressHeader />
+        <PageHeader
+          id='dress'
+          image={images.header1}
+          text={
+            <>
+              การแ<span className='pachautid tracking-wider'>ต่</span>งกาย
+            </>
+          }
+        />
       </ScrollPage>
     </ScrollContainer>
   );
