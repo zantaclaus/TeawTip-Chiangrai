@@ -6,7 +6,7 @@ const HengLe: React.FC = (): JSX.Element => {
     <section className='relative h-screen w-screen flex justify-center items-center'>
       <div
         style={{ backgroundImage: `url(${images.hangLeBg})` }}
-        className='w-full h-full absolute brightness-50 bg-cover -z-10'
+        className='w-full h-full absolute brightness-50 bg-cover bg-center -z-10'
       ></div>
 
       <div className='flex items-center'>
