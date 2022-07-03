@@ -10,7 +10,7 @@ const KaoSoi: React.FC = (): JSX.Element => {
       ></div>
 
       <div className='flex flex-col justify-center items-center'>
-        <div className='w-[800px] bg-white rounded-xl px-8 pt-8 pb-16 shadow-xl relative 2xl:w-[620px] '>
+        <div className='w-[800px] bg-white rounded-xl px-8 pt-8 pb-16 shadow-xl relative'>
           <h1 className='header mb-3'>ข้าวซอย</h1>
           <h3 className='tagline'>
             ข้าวซอย คืออาหารพื้นเมืองทางภาคเหนือของประเทศไทย เดิมเรียกว่า &apos;ก๋วยเตี๋ยวฮ่อ&lsquo;
@@ -29,18 +29,18 @@ const KaoSoi: React.FC = (): JSX.Element => {
           <img
             src={images.kaosoi2}
             alt=''
-            className='w-[450px] rounded-xl shadow-xl relative left-32   2xl:w-[800px]'
+            className='w-[450px] rounded-xl shadow-xl relative left-32'
           />
           <img
             src={images.kaosoi1}
             alt=''
-            className='w-[550px] rounded-xl shadow-xl relative z-50 2xl:w-[800px]'
+            className='w-[550px] rounded-xl shadow-xl relative z-50'
           />
 
           <img
             src={images.kaosoi3}
             alt=''
-            className='w-[450px] rounded-xl shadow-xl relative right-32 2xl:w-[800px]'
+            className='w-[450px] rounded-xl shadow-xl relative right-32'
           />
         </div>
       </div>

@@ -14,6 +14,9 @@ import kaosoi1 from './kaosoi1.png';
 import kaosoi2 from './kaosoi2.png';
 import kaosoi3 from './kaosoi3.png';
 import kaosoiBg from './kaosoiBg.png';
+import namNgew1 from './namNgew1.jpg';
+import namNgew2 from './namNgew2.jpg';
+import namNgewBg from './namNgewBg.jpg';
 
 export const images = {
   hero,
@@ -32,4 +35,7 @@ export const images = {
   kaosoi2,
   kaosoi3,
   kaosoiBg,
+  namNgew1,
+  namNgew2,
+  namNgewBg,
 };

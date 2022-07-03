@@ -9,6 +9,7 @@ import WadRongKhun from 'pages/architecture/wadRongKhun';
 import WatSueaLongTen from 'pages/architecture/watSueaLongTen';
 import HengLe from 'pages/food/hangLe';
 import KaoSoi from 'pages/food/kaoSoi';
+import NamNgew from 'pages/food/namNgew';
 import Hero from 'pages/hero';
 import React from 'react';
 
@@ -50,6 +51,7 @@ const App: React.FC = (): JSX.Element => {
       </ScrollPage>
       <ScrollPage children={<KaoSoi />} />
       <ScrollPage children={<HengLe />} />
+      <ScrollPage children={<NamNgew />} />
       {/* *********** Dress Page ************ */}
       <ScrollPage>
         <PageHeader
