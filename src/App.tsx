@@ -26,11 +26,12 @@ const App: React.FC = (): JSX.Element => {
       <ScrollPage>
         <WadRongKhun />
       </ScrollPage>
-      <ScrollPage>
-        <WatSueaLongTen />
-      </ScrollPage>
+
       <ScrollPage>
         <BanDam />
+      </ScrollPage>
+      <ScrollPage>
+        <WatSueaLongTen />
       </ScrollPage>
       <ScrollPage>
         <DoiDinDang />
