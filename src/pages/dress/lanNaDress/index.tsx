@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LanNa: React.FC = (): JSX.Element => {
+const LanNaDress: React.FC = (): JSX.Element => {
   return (
     <section className='relative h-screen w-screen flex justify-center items-center'>
       HEllo WOrld
@@ -8,4 +8,4 @@ const LanNa: React.FC = (): JSX.Element => {
   );
 };
 
-export default LanNa;
+export default LanNaDress;
