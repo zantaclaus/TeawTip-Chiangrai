@@ -50,8 +50,8 @@ const App: React.FC = (): JSX.Element => {
       <ScrollPage
         children={
           <PageHeader
-            id='dress'
-            image={images.header1}
+            id='culture'
+            image={images.header2}
             text={
               <>
                 ศิลปะ<span className='pachautid tracking-wider'>วั</span>ฒนธรรม

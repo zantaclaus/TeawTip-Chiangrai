@@ -4,11 +4,9 @@ import HomeIcon from '@mui/icons-material/Home';
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
-import AccessibilityIcon from '@mui/icons-material/Accessibility';
 
 const actions = [
-  { icon: <AccessibilityIcon />, name: 'เครื่องแต่งกาย', href: 'dress' },
-  { icon: <AutoAwesomeIcon />, name: 'ความเชื่อ', href: 'belief' },
+  { icon: <AutoAwesomeIcon />, name: 'ศิลปะวัฒนธรรม', href: 'culture' },
   { icon: <FastfoodIcon />, name: 'อาหาร', href: 'food' },
   { icon: <ApartmentIcon />, name: 'สถาปัตยกรรม', href: 'architecture' },
   { icon: <HomeIcon />, name: 'หน้าแรก', href: 'hero' },

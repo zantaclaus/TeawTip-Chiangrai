@@ -1,4 +1,5 @@
 import header1 from './header1.jpeg';
+import header2 from './header2.png';
 import hero from './hero.jpeg';
 import temple from './temple.jpeg';
 import wadRongKhun from './wadRongKhun.png';
@@ -29,6 +30,7 @@ export const images = {
   watSueaLongTen,
   watSueaLongTenBg,
   header1,
+  header2,
   hangLe,
   hangLeBg,
   kaosoi1,
