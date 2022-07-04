@@ -5,6 +5,7 @@ import RoomIcon from '@mui/icons-material/Room';
 import BongFireModal from './Modal';
 import AnimateInView from 'components/common/animateInView';
 import { transition } from 'service/transation.service';
+import { Lowlight } from 'components/common/highlight';
 
 const BongFire: React.FC = (): JSX.Element => {
   return (
@@ -20,11 +21,12 @@ const BongFire: React.FC = (): JSX.Element => {
           <AnimateInView variants={transition.variantUpToDown}>
             <h1 className='header mb-3 mt-8'>งานลิ้จุดบ้องไฟ (จิบอกไฟ)</h1>
             <h3 className='tagline'>
-              จิบอกไฟ หรือการจุดบั้งไฟ เป็นประเพณีเก่าแก่ของชาวล้านนา
-              เป็นการสักการะบูชาพระเกษแก้วจุฬามณีบนสวรรค์ชั้นดาวดึงส์
+              จิบอกไฟ หรือการจุดบั้งไฟ เป็นประเพณีเก่าแก่ของชาวล้านนา เป็น
+              <Lowlight>การสักการะบูชาพระเกษแก้วจุฬามณีบนสวรรค์ชั้นดาวดึงส์</Lowlight>
               และเป็นประเพณีที่สร้างความสนุกสนานให้กับชุมชนล้านนา
               ประเพณีจิบอกไฟนิยมจัดในงานเทศกาลต่างๆ
             </h3>
+
             <Modal
               title='งานลิ้จุดบ้องไฟ (จิบอกไฟ)'
               titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}

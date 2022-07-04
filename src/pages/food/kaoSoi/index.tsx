@@ -5,6 +5,7 @@ import RoomIcon from '@mui/icons-material/Room';
 import KaoSoiModal from './Modal';
 import AnimateInView from 'components/common/animateInView';
 import { transition } from 'service/transation.service';
+import Highlight from 'components/common/highlight';
 
 const KaoSoi: React.FC = (): JSX.Element => {
   return (
@@ -19,8 +20,9 @@ const KaoSoi: React.FC = (): JSX.Element => {
           <AnimateInView variants={transition.variantDownToUP}>
             <h1 className='header mb-3'>ข้าวซอย</h1>
             <h3 className='tagline'>
-              ข้าวซอย คืออาหารพื้นเมืองทางภาคเหนือของประเทศไทย เดิมเรียกว่า
-              &apos;ก๋วยเตี๋ยวฮ่อ&lsquo; เป็นอาหารที่ได้รับอิทธิพลมาจากชาวจีนยูนนานหรือฮ่อ
+              ข้าวซอย คืออาหารพื้นเมืองทางภาคเหนือของประเทศไทย เดิมเรียกว่า&nbsp;
+              <Highlight>ก๋วยเตี๋ยวฮ่อ</Highlight> เป็นอาหารที่ได้รับอิทธิพลมาจาก
+              <Highlight>ชาวจีนยูนนานหรือฮ่อ</Highlight>
               มีลักษณะคล้ายเส้นบะหมี่ ในน้ำซุปที่ใส่เครื่องแกง รสจัดจ้าน มีเครื่องเคียง ได้แก่
               ผักกาดดอง หอมหัวแดง ยำกะหล่ำปลีและมีเครื่องปรุงรส เช่น พริกผัดน้ำมัน น้ำมะนาว น้ำปลา
               น้ำตาล ในตำรับดั้งเดิมเนื้อที่ใช้เป็นเนื้อไก่หรือเนื้อวัว

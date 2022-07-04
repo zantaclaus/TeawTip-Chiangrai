@@ -5,6 +5,7 @@ import RoomIcon from '@mui/icons-material/Room';
 import HangLeModal from './Modal';
 import AnimateInView from 'components/common/animateInView';
 import { transition } from 'service/transation.service';
+import Highlight from 'components/common/highlight';
 
 const HengLe: React.FC = (): JSX.Element => {
   return (
@@ -19,8 +20,8 @@ const HengLe: React.FC = (): JSX.Element => {
           <AnimateInView variants={transition.variantLeftToRight}>
             <h1 className='header'>แกงฮังเล</h1>
             <h3 className='tagline'>
-              แกงฮังเล เมนูอาหารพื้นเมืองของคนภาคเหนือ
-              โดยสามารถกินได้ที่ภาคเหนือเป็นเมนูที่หากินได้เฉพาะภาคเท่านั่น
+              แกงฮังเล เมนูอาหารพื้นเมืองของคนภาคเหนือ โดยสามารถกินได้ที่ภาคเหนือเป็นเมนูที่
+              <Highlight>หากินได้เฉพาะภาคเท่านั้น</Highlight>
               โดยมีส่วนผสมหลักคือหมูละเครื่องแกงในการทำแกงฮังเลให้ต้อง หมูนุ่ม เปรี้ยวนำ
               เวลาได้กินกับข้าวสวยร้อนๆ นี่เป็นเวลาที่มีความสุขที่สุดเลย
             </h3>

@@ -5,6 +5,7 @@ import RoomIcon from '@mui/icons-material/Room';
 import NamNgewModal from './Modal';
 import AnimateInView from 'components/common/animateInView';
 import { transition } from 'service/transation.service';
+import Highlight from 'components/common/highlight';
 
 const NamNgew: React.FC = (): JSX.Element => {
   return (
@@ -24,10 +25,11 @@ const NamNgew: React.FC = (): JSX.Element => {
           <AnimateInView variants={transition.variantDownToUP}>
             <h1 className='header mb-3'>น้ำเงี้ยว</h1>
             <h3 className='tagline'>
-              น้ำเงี้ยว หรือ น้ำงิ้ว เป็นอาหารภาคเหนือของประเทศไทย
-              เป็นน้ำแกงที่รับประทานกับขนมจีนหรือเส้นก๋วยเตี๋ยว ถ้าเป็นก๋วยเตี๋ยว
+              น้ำเงี้ยว หรือ น้ำงิ้ว เป็นอาหารภาคเหนือของประเทศไทย เป็นน้ำแกงที่
+              <Highlight>รับประทานกับขนมจีนหรือเส้นก๋วยเตี๋ยว</Highlight> ถ้าเป็นก๋วยเตี๋ยว
               เรียกก๋วยเตี๋ยวน้ำเงี้ยว บางสูตรใช้ถั่วเน่าแข็บย่างไฟ โขลกลงในเครื่องแกง
-              บางสูตรใส่เต้าเจี้ยว ชาวไทใหญ่ เรียกอาหารชนิดนี้ว่า “เข้าเส้นน้ำหมากเขือส้ม”
+              บางสูตรใส่เต้าเจี้ยว ชาวไทใหญ่ เรียกอาหารชนิดนี้ว่า{' '}
+              <Highlight>เข้าเส้นน้ำหมากเขือส้ม</Highlight>
             </h3>
 
             <Modal
