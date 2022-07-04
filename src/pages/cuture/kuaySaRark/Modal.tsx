@@ -3,6 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { a11yProps, TabPanel } from 'components/common/modal/TabPanel';
+import { images } from 'assets/images';
 
 const KuaySaRarkModal = () => {
   const [value, setValue] = React.useState(0);
@@ -45,6 +46,11 @@ const KuaySaRarkModal = () => {
         เป็นภาษาของชาวล้านนา หากเป็นภาษาภาคกลางจะตรงกับคำว่า สลากภัต
         ประเพณีตานก๋วยสลากทางภาคเหนือนิยมจัดกันในช่วงเดือน ๑๒ เหนือถึงเดือนยี่เหนือ
         หรือตั้งแต่เดือนกันยายนจนถึงเดือนตุลาคมของทุกปี
+        <img
+          src={images.kuaySaRarkModal1}
+          alt=''
+          className='w-[45%] my-7 mx-auto rounded-xl shadow-lg'
+        />
         <h3 className='sukhumvit mt-4 mb-2'>สำหรับก๋วยสลากที่ทำกัน แบ่งได้ ๓ แบบ</h3>
         ก๋วยน้อย ใช้สำหรับอุทิศให้กับบรรพบุรุษ หรือผู้ที่ล่วงลับไปแล้ว จะเป็นญาติพี่น้อง เป็นมิตร
         สหาย หรือแม้แต่สัตว์เลี้ยงที่เคยอยู่ด้วยกันมาก็ได้ ทั้งช้าง ม้า วัว ควาย แมว และสุนัข หรือ
@@ -53,7 +59,11 @@ const KuaySaRarkModal = () => {
         ที่มีฐานะดีที่ต้องการทำบุญอุทิศบุญกุศลไปให้กับพ่อแม่หรือญาติผู้ใหญ่ที่ล่วงลับไปแล้ว สลากโชค
         จะต่างจากก๋วยสองแบบแรกอย่างชัดเจน สลากโชคจะทำเลียนแบบต้นไม้สูงใหญ่ แล้วนำสิ่งของต่างๆ
         ไปแขวนไว้บนต้นไม้ เช่น ผ้าห่ม ที่นอน หมอน มุ้ง ถ้วยขาม เครื่องนุ่งหุ่ม อาหารแห้ง และเงินทอง
-        <img src='' alt='' />
+        <img
+          src={images.kuaySaRarkModal2}
+          alt=''
+          className='w-[45%] my-7 mx-auto rounded-xl shadow-lg'
+        />
       </TabPanel>
     </Box>
   );

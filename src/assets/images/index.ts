@@ -44,6 +44,8 @@ import kaoSoiModal4 from './kaoSoiModal4.png';
 import kaosoiBg from './kaosoiBg.png';
 import kuaySaRark from './kuaySaRark.jpeg';
 import kuaySaRarkBg from './kuaySaRarkBg.jpeg';
+import kuaySaRarkModal1 from './kuaySaRarkModal1.jpg';
+import kuaySaRarkModal2 from './kuaySaRarkModal2.jpg';
 import namNgew1 from './namNgew1.jpg';
 import namNgew2 from './namNgew2.jpg';
 import namNgewBg from './namNgewBg.jpg';
@@ -56,8 +58,12 @@ import namNgewModal6 from './namNgewModal6.png';
 import namNgewModal7 from './namNgewModal7.png';
 import linJee from './linJee.png';
 import linJeeBg from './linJeeBg.png';
+import linJeeModal from './linJeeModal.png';
 import bongFire from './bongFire.png';
 import bongFireBg from './bongFireBg.png';
+import bongFireModal1 from './bongFireModal1.jpg';
+import bongFireModal2 from './bongFireModal2.jpg';
+import bongFireModal3 from './bongFireModal3.png';
 import history from './history.png';
 import historyBg from './historyBg.png';
 import historyModal1 from './historyModal1.jpg';
@@ -146,4 +152,10 @@ export const images = {
   namNgewModal5,
   namNgewModal6,
   namNgewModal7,
+  kuaySaRarkModal1,
+  kuaySaRarkModal2,
+  linJeeModal,
+  bongFireModal1,
+  bongFireModal2,
+  bongFireModal3,
 };

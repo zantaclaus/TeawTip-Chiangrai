@@ -3,6 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { a11yProps, TabPanel } from 'components/common/modal/TabPanel';
+import { images } from 'assets/images';
 
 const LinJeeModal = () => {
   const [value, setValue] = React.useState(0);
@@ -41,6 +42,11 @@ const LinJeeModal = () => {
         จากสับปะรดและลิ้นจี่ลีลา การประกวดร้องเพลงพร้อมนักร้องและหางเครื่องและการประกวด
         เชียงรายทาเล้นท์โชว์ สามารถติดต่อสอบถามข้อมูลได้ที่ ณ กองส่งเสริมคุณภาพชีวิต
         องค์การบริหารส่วนจังหวัดเชียงราย
+        <img
+          src={images.linJeeModal}
+          alt=''
+          className='w-[45%] my-7 mx-auto rounded-xl shadow-lg'
+        />
       </TabPanel>
     </Box>
   );
