@@ -3,6 +3,8 @@ import Modal from 'components/common/modal';
 import React from 'react';
 import KuaySaRarkModal from './Modal';
 import RoomIcon from '@mui/icons-material/Room';
+import AnimateInView from 'components/common/animateInView';
+import { transition } from 'service/transation.service';
 
 const KuaySaRark: React.FC = (): JSX.Element => {
   return (
@@ -20,22 +22,24 @@ const KuaySaRark: React.FC = (): JSX.Element => {
 
         <img src={images.kuaySaRark} alt='' className='w-[500px] rounded-xl shadow-xl' />
         <div className='w-[800px] text-white rounded-xl px-8 pt-8  shadow-xl relative'>
-          <h1 className='header mb-3'>ประเพณีตานก๋วยสลาก</h1>
-          <h3 className='tagline'>
-            ประเพณีตานก๋วยสลากเป็นการถวายทานโดยไม่เจาะจงผู้รับโดยจัดขึ้น ตั้งแต่วันเพ็ญเดือน 10
-            จนไปถึงแรม 15 ค่ำ เดือน 11 ที่มาของประเพณี
-            ตานก๋วยสลากมาจากมีนางยักตนหนึ่งมักทำร้ายและเบียดผู้อื่นอยู่เสมอ
-            แต่เมื่อได้ฟังธรรมคำสอนของพระพุทธเจ้าแล้ว นางยักตนนี้ก็เกิดความ
-            เลื่อมใสและกลายเป็นนางยักที่โอบอ้อมอารีช่วยเหลือผู้อื่น จนชาวบ้านซาบซึ่ง
-            ในความดีจึงนำของมาให้นางยักจำนวนมาก
-          </h3>
+          <AnimateInView variants={transition.variantDownToUP}>
+            <h1 className='header mb-3'>ประเพณีตานก๋วยสลาก</h1>
+            <h3 className='tagline'>
+              ประเพณีตานก๋วยสลากเป็นการถวายทานโดยไม่เจาะจงผู้รับโดยจัดขึ้น ตั้งแต่วันเพ็ญเดือน 10
+              จนไปถึงแรม 15 ค่ำ เดือน 11 ที่มาของประเพณี
+              ตานก๋วยสลากมาจากมีนางยักตนหนึ่งมักทำร้ายและเบียดผู้อื่นอยู่เสมอ
+              แต่เมื่อได้ฟังธรรมคำสอนของพระพุทธเจ้าแล้ว นางยักตนนี้ก็เกิดความ
+              เลื่อมใสและกลายเป็นนางยักที่โอบอ้อมอารีช่วยเหลือผู้อื่น จนชาวบ้านซาบซึ่ง
+              ในความดีจึงนำของมาให้นางยักจำนวนมาก
+            </h3>
 
-          <Modal
-            title='ประเภณีตานก๋วยสลาก'
-            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
-            titleTagline='เชียงราย'
-            tabs={<KuaySaRarkModal />}
-          />
+            <Modal
+              title='ประเภณีตานก๋วยสลาก'
+              titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+              titleTagline='เชียงราย'
+              tabs={<KuaySaRarkModal />}
+            />
+          </AnimateInView>
         </div>
       </div>
     </section>

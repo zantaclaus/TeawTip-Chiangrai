@@ -3,6 +3,8 @@ import Modal from 'components/common/modal';
 import React from 'react';
 import RoomIcon from '@mui/icons-material/Room';
 import HangLeModal from './Modal';
+import AnimateInView from 'components/common/animateInView';
+import { transition } from 'service/transation.service';
 
 const HengLe: React.FC = (): JSX.Element => {
   return (
@@ -14,20 +16,22 @@ const HengLe: React.FC = (): JSX.Element => {
 
       <div className='flex items-center'>
         <div className='w-[600px] h-fit bg-white rounded-xl pl-8 pr-32 py-8 shadow-xl  2xl:w-[620px]'>
-          <h1 className='header'>แกงฮังเล</h1>
-          <h3 className='tagline'>
-            แกงฮังเล เมนูอาหารพื้นเมืองของคนภาคเหนือ
-            โดยสามารถกินได้ที่ภาคเหนือเป็นเมนูที่หากินได้เฉพาะภาคเท่านั่น
-            โดยมีส่วนผสมหลักคือหมูละเครื่องแกงในการทำแกงฮังเลให้ต้อง หมูนุ่ม เปรี้ยวนำ
-            เวลาได้กินกับข้าวสวยร้อนๆ นี่เป็นเวลาที่มีความสุขที่สุดเลย
-          </h3>
+          <AnimateInView variants={transition.variantLeftToRight}>
+            <h1 className='header'>แกงฮังเล</h1>
+            <h3 className='tagline'>
+              แกงฮังเล เมนูอาหารพื้นเมืองของคนภาคเหนือ
+              โดยสามารถกินได้ที่ภาคเหนือเป็นเมนูที่หากินได้เฉพาะภาคเท่านั่น
+              โดยมีส่วนผสมหลักคือหมูละเครื่องแกงในการทำแกงฮังเลให้ต้อง หมูนุ่ม เปรี้ยวนำ
+              เวลาได้กินกับข้าวสวยร้อนๆ นี่เป็นเวลาที่มีความสุขที่สุดเลย
+            </h3>
 
-          <Modal
-            title='แกงฮังเล'
-            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
-            titleTagline='เชียงราย'
-            tabs={<HangLeModal />}
-          />
+            <Modal
+              title='แกงฮังเล'
+              titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+              titleTagline='เชียงราย'
+              tabs={<HangLeModal />}
+            />
+          </AnimateInView>
         </div>
 
         <img
