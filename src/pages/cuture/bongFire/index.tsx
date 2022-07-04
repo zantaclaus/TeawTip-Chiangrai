@@ -1,5 +1,8 @@
 import { images } from 'assets/images';
+import Modal from 'components/common/modal';
 import React from 'react';
+import RoomIcon from '@mui/icons-material/Room';
+import BongFireModal from './Modal';
 
 const BongFire: React.FC = (): JSX.Element => {
   return (
@@ -19,9 +22,12 @@ const BongFire: React.FC = (): JSX.Element => {
             และเป็นประเพณีที่สร้างความสนุกสนานให้กับชุมชนล้านนา
             ประเพณีจิบอกไฟนิยมจัดในงานเทศกาลต่างๆ
           </h3>
-          <button className='px-6 py-2 mt-6 mb-8 w-fit border-2 border-teal-300 rounded-full sukhumvit '>
-            เพิ่มเติม
-          </button>
+          <Modal
+            title='งานลิ้จุดบ้องไฟ (จิบอกไฟ)'
+            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+            titleTagline='เชียงราย'
+            tabs={<BongFireModal />}
+          />
         </div>
       </div>
     </section>
