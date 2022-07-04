@@ -33,7 +33,7 @@ const BongFireModal = () => {
       </Tabs>
 
       <TabPanel value={value} index={0}>
-        <h2 className='sukhumvit-semibold mb-2'>ชนิกของบอกไฟ</h2>
+        <h2 className='sukhumvit-semibold mb-2'>ชนิดของบอกไฟ</h2>
         <span className='sukhumvit text-teal-400'>บอกไฟยิง </span>
         คือบอกไฟเล็กชนิดหนึ่งที่อัดดินปืนลงในกระบอกไม้ขนาดเล็ก ยาวประมาณ 8 นิ้ว คาดด้วยหวาย
         และเจาะรูใส่ชนวน บ้างเรียกบอกไฟชนิดนี้ว่า “บอกไฟลูกหนู” เป็นบอกไฟชนิด หนึ่งในหลายชนิด
