@@ -6,6 +6,9 @@
   .header {
     @apply mb-2 sukhumvit-bold text-3xl
   }
+  .sub__header {
+    @apply mb-1 sukhumvit-semibold text-xl
+  }
   .tagline {
     @apply sukhumvit text-lg 2xl:text-xl
   }

@@ -7,6 +7,8 @@ import BanDam from 'pages/architecture/banDam';
 import DoiDinDang from 'pages/architecture/doiDinDang';
 import WadRongKhun from 'pages/architecture/wadRongKhun';
 import WatSueaLongTen from 'pages/architecture/watSueaLongTen';
+import Advice from 'pages/chiangrai/advice';
+import Climate from 'pages/chiangrai/climate';
 import History from 'pages/chiangrai/history';
 import BongFire from 'pages/cuture/bongFire';
 import KuaySaRark from 'pages/cuture/kuaySaRark';
@@ -25,6 +27,8 @@ const App: React.FC = (): JSX.Element => {
       {/* *********** Hero Page ************ */}
       <ScrollPage children={<Hero />} />
       <ScrollPage children={<History />} />
+      <ScrollPage children={<Climate />} />
+      <ScrollPage children={<Advice />} />
 
       {/* *********** Architecture Page ************ */}
       <ScrollPage

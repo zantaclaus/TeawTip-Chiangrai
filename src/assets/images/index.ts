@@ -30,6 +30,8 @@ import bongFire from './bongFire.png';
 import bongFireBg from './bongFireBg.png';
 import history from './history.png';
 import historyBg from './historyBg.png';
+import climate from './climate.png';
+import advice from './advice.jpeg';
 
 export const images = {
   hero,
@@ -64,4 +66,6 @@ export const images = {
   bongFireBg,
   history,
   historyBg,
+  climate,
+  advice,
 };
