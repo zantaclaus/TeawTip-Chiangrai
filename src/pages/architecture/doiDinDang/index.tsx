@@ -1,6 +1,9 @@
 import { images } from 'assets/images';
 import AnimateInView from 'components/common/animateInView';
+import Modal from 'components/common/modal';
 import React from 'react';
+import RoomIcon from '@mui/icons-material/Room';
+import DoiDinDangModal from './Modal';
 
 const DoiDinDang: React.FC = (): JSX.Element => {
   const variantText = {
@@ -38,6 +41,13 @@ const DoiDinDang: React.FC = (): JSX.Element => {
               ร่วมสมัยอีกความสวยงามที่เราได้สัมผัสในวันฝนตกแบบนี้ก็คือมอสสีเขียวที่ขึ้นอยู่ตามมุมต่างๆของพิพิธภัณฑ์
               และโรงปั้น ทำให้เพิ่มบรรยากาศของธรรมชาติที่สดชื่นไปอีก
             </h3>
+
+            <Modal
+              title='ดอยดินแดง'
+              titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+              titleTagline='49 หมู่ 6 ซอย 3 บ้านป่าอ้อ ถนนพหลโยธิน ต.นางแล อ.เมืองเชียงราย จ.เชียงราย'
+              tabs={<DoiDinDangModal />}
+            />
           </div>
         </AnimateInView>
       </div>
