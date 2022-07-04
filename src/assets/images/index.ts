@@ -28,6 +28,8 @@ import linJee from './linJee.png';
 import linJeeBg from './linJeeBg.png';
 import bongFire from './bongFire.png';
 import bongFireBg from './bongFireBg.png';
+import history from './history.png';
+import historyBg from './historyBg.png';
 
 export const images = {
   hero,
@@ -60,4 +62,6 @@ export const images = {
   linJeeBg,
   bongFire,
   bongFireBg,
+  history,
+  historyBg,
 };
