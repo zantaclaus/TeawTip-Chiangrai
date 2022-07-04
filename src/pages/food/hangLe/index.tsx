@@ -1,5 +1,8 @@
 import { images } from 'assets/images';
+import Modal from 'components/common/modal';
 import React from 'react';
+import RoomIcon from '@mui/icons-material/Room';
+import HangLeModal from './Modal';
 
 const HengLe: React.FC = (): JSX.Element => {
   return (
@@ -18,9 +21,13 @@ const HengLe: React.FC = (): JSX.Element => {
             โดยมีส่วนผสมหลักคือหมูละเครื่องแกงในการทำแกงฮังเลให้ต้อง หมูนุ่ม เปรี้ยวนำ
             เวลาได้กินกับข้าวสวยร้อนๆ นี่เป็นเวลาที่มีความสุขที่สุดเลย
           </h3>
-          <button className='px-6 py-2 mt-4 border-2 border-teal-300 rounded-full sukhumvit'>
-            เพิ่มเติม
-          </button>
+
+          <Modal
+            title='แกงฮังเล'
+            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+            titleTagline='เชียงราย'
+            tabs={<HangLeModal />}
+          />
         </div>
 
         <img
