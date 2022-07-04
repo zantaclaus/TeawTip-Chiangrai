@@ -5,6 +5,7 @@ import KuaySaRarkModal from './Modal';
 import RoomIcon from '@mui/icons-material/Room';
 import AnimateInView from 'components/common/animateInView';
 import { transition } from 'service/transation.service';
+import { Lowlight } from 'components/common/highlight';
 
 const KuaySaRark: React.FC = (): JSX.Element => {
   return (
@@ -25,8 +26,8 @@ const KuaySaRark: React.FC = (): JSX.Element => {
           <AnimateInView variants={transition.variantDownToUP}>
             <h1 className='header mb-3'>ประเพณีตานก๋วยสลาก</h1>
             <h3 className='tagline'>
-              ประเพณีตานก๋วยสลากเป็นการถวายทานโดยไม่เจาะจงผู้รับโดยจัดขึ้น ตั้งแต่วันเพ็ญเดือน 10
-              จนไปถึงแรม 15 ค่ำ เดือน 11 ที่มาของประเพณี
+              ประเพณีตานก๋วยสลากเป็น<Lowlight>การถวายทานโดยไม่เจาะจงผู้รับ</Lowlight>โดยจัดขึ้น
+              ตั้งแต่วันเพ็ญเดือน 10 จนไปถึงแรม 15 ค่ำ เดือน 11 ที่มาของประเพณี
               ตานก๋วยสลากมาจากมีนางยักตนหนึ่งมักทำร้ายและเบียดผู้อื่นอยู่เสมอ
               แต่เมื่อได้ฟังธรรมคำสอนของพระพุทธเจ้าแล้ว นางยักตนนี้ก็เกิดความ
               เลื่อมใสและกลายเป็นนางยักที่โอบอ้อมอารีช่วยเหลือผู้อื่น จนชาวบ้านซาบซึ่ง
