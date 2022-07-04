@@ -34,7 +34,13 @@ import historyModal1 from './historyModal1.jpg';
 import historyModal2 from './historyModal2.jpg';
 import historyModal3 from './historyModal3.jpg';
 import climate from './climate.png';
-import advice from './advice.jpeg';
+import climateBg from './climateBg.png';
+import climateModal from './climateModal.png';
+import advice from './advice.jpg';
+import adviceModal1 from './adviceModal1.png';
+import adviceModal2 from './adviceModal2.png';
+import adviceModal3 from './adviceModal3.jpg';
+import adviceBg from './adviceBg.jpeg';
 
 export const images = {
   hero,
@@ -70,7 +76,13 @@ export const images = {
   history,
   historyBg,
   climate,
+  climateBg,
+  climateModal,
   advice,
+  adviceBg,
+  adviceModal1,
+  adviceModal2,
+  adviceModal3,
   historyModal1,
   historyModal2,
   historyModal3,

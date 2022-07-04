@@ -1,11 +1,14 @@
 import { images } from 'assets/images';
+import Modal from 'components/common/modal';
+import RoomIcon from '@mui/icons-material/Room';
 import React from 'react';
+import AdviceModal from './Modal';
 
 const Advice = () => {
   return (
     <section className='relative h-screen w-screen flex justify-center items-center'>
       <div
-        style={{ backgroundImage: `url(${images.advice})` }}
+        style={{ backgroundImage: `url(${images.adviceBg})` }}
         className='w-full h-full absolute brightness-[0.2] bg-cover bg-bottom -z-10'
       ></div>
 
@@ -18,6 +21,13 @@ const Advice = () => {
             ส่วนจะมากหรือน้อยก็ขึ้นอยู่กับสภาพลมและความใสของท้องฟ้า ถ้าคืนวัน ไหนท้องฟ้าแจ่มไร้เมฆ
             ลมนิ่ง วันนั้นทะเลหมอกจะเยอะมาก แต่ถ้าคืนไหนเมฆเยอะ ลมแรง ทะเลหมอกก็มีน้อย
           </h3>
+
+          <Modal
+            title='ข้อแนะนำในการเที่ยวเชียงราย'
+            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+            titleTagline='เชียงราย'
+            tabs={<AdviceModal />}
+          />
         </div>
       </div>
     </section>

@@ -3,7 +3,6 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { a11yProps, TabPanel } from 'components/common/modal/TabPanel';
-import { Divider } from '@mui/material';
 import { images } from 'assets/images';
 
 const HistoryModal = () => {

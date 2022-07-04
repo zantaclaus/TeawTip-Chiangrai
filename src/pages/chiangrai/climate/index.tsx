@@ -1,16 +1,19 @@
 import { images } from 'assets/images';
+import Modal from 'components/common/modal';
+import RoomIcon from '@mui/icons-material/Room';
 import React from 'react';
+import ClimateModal from './Modal';
 
 const Climate: React.FC = (): JSX.Element => {
   return (
     <section className='relative h-screen w-screen flex justify-center items-center'>
       <div
-        style={{ backgroundImage: `url(${images.linJeeBg})` }}
+        style={{ backgroundImage: `url(${images.climateBg})` }}
         className='w-full h-full absolute brightness-[0.2] bg-cover bg-bottom -z-10'
       ></div>
 
       <div className='flex gap-6 max-w-[1100px] relative'>
-        <div className='w-[800px] text-white rounded-xl pt-8  shadow-xl relative flex flex-col justify-center'>
+        <div className='w-[800px] text-white rounded-xl pt-4  shadow-xl relative flex flex-col justify-center'>
           <h1 className='header mb-6'>สภาพภูมิศาสตร์</h1>
           <h2 className='sub__header'>ที่ตั้งและอาณาเขต</h2>
           <h3 className='tagline'>
@@ -27,6 +30,13 @@ const Climate: React.FC = (): JSX.Element => {
             เชียงแสน และเชียงของมีความสูงประมาณ 410 – 580 เมตร จากระดับน้ำทะเล มีที่ราบเป็นหย่อม ๆ
             ในระหว่างหุบเขา และตามลุ่มน้ำสำคัญ
           </h3>
+
+          <Modal
+            title='สภาพภูมิอากาศ'
+            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+            titleTagline='เชียงราย'
+            tabs={<ClimateModal />}
+          />
         </div>
         <img src={images.climate} alt='' className='w-[400px] rounded-xl shadow-xl' />
       </div>
