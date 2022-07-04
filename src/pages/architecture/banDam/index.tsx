@@ -1,6 +1,9 @@
 import { images } from 'assets/images';
 import AnimateInView from 'components/common/animateInView';
+import Modal from 'components/common/modal';
 import React from 'react';
+import RoomIcon from '@mui/icons-material/Room';
+import BanDamModal from './Modal';
 
 const BanDam: React.FC = (): JSX.Element => {
   const variantText = {
@@ -41,9 +44,12 @@ const BanDam: React.FC = (): JSX.Element => {
               สวยงามนับว่าเป็นสถานที่หนึ่งที่แสดงถึงเอกลักษณ์และศิลปะแบบล้านนาที่ทรงคุณค่าและควรอนุรักษ์ในจังหวัดเชียงราย
             </h3>
 
-            <button className='px-6 py-2 mt-2 border-2 border-teal-300 rounded-full sukhumvit'>
-              เพิ่มเติม
-            </button>
+            <Modal
+              title='พิพิธภัณฑ์บ้านดำ'
+              titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+              titleTagline='333 ม.13 ต.นางแล อ.เมือง จ.เชีxยงราย 57100'
+              tabs={<BanDamModal />}
+            />
           </div>
         </AnimateInView>
       </div>
