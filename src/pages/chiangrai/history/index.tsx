@@ -9,7 +9,7 @@ const History: React.FC = (): JSX.Element => {
         className='w-full h-full absolute brightness-[0.2] bg-cover bg-bottom -z-10'
       ></div>
 
-      <div className='flex gap-6 max-w-[1100px] relative'>
+      <div className='flex gap-8 max-w-[1100px] relative'>
         <img src={images.history} alt='' className='w-[550px] rounded-xl shadow-xl' />
         <div className='w-[800px] text-white rounded-xl pt-8  shadow-xl relative'>
           <h1 className='header mb-3'>ประวัติจังหวัดเชียงราย</h1>
