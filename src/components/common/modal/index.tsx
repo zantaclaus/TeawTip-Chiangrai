@@ -49,7 +49,7 @@ const Modal: React.FC<IModal> = ({ title, titleIcon, titleTagline, tabs }: IModa
       <ThemeProvider theme={theme}>
         <button
           onClick={handleClickOpen}
-          className='px-6 py-2 mt-4 border-2 border-teal-300 rounded-full sukhumvit'
+          className='px-6 py-2 mt-4 border-2 border-teal-300 rounded-full sukhumvit hover:bg-teal-300 active:bg-teal-400'
         >
           เพิ่มเติม
         </button>
