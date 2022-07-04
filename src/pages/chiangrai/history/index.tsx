@@ -1,5 +1,8 @@
 import { images } from 'assets/images';
+import Modal from 'components/common/modal';
 import React from 'react';
+import RoomIcon from '@mui/icons-material/Room';
+import HistoryModal from './Modal';
 
 const History: React.FC = (): JSX.Element => {
   return (
@@ -24,6 +27,13 @@ const History: React.FC = (): JSX.Element => {
             สร้างรายได้ให้กับ จังหวัดราว 28,500 ล้านบาท
             โดยเศรษฐกิจของจังหวัดเชียงรายมาจากเกษตรกรรมเป็นหลัก ซึ่งมีมูลค่ารวมกว่า 32,500 ล้านบาท
           </h3>
+
+          <Modal
+            title='ประวัติจังหวัดเชียงราย'
+            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+            titleTagline='เชียงราย'
+            tabs={<HistoryModal />}
+          />
         </div>
       </div>
     </section>

@@ -28,7 +28,7 @@ const LinJee: React.FC = (): JSX.Element => {
           </h3>
 
           <Modal
-            title='วัดร่องขุ่น'
+            title='งานลิ้นจี่เขียงราย'
             titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
             titleTagline='เชียงราย'
             tabs={<LinJeeModal />}
