@@ -1,5 +1,8 @@
 import { images } from 'assets/images';
+import Modal from 'components/common/modal';
 import React from 'react';
+import KuaySaRarkModal from './Modal';
+import RoomIcon from '@mui/icons-material/Room';
 
 const KuaySaRark: React.FC = (): JSX.Element => {
   return (
@@ -26,9 +29,13 @@ const KuaySaRark: React.FC = (): JSX.Element => {
             เลื่อมใสและกลายเป็นนางยักที่โอบอ้อมอารีช่วยเหลือผู้อื่น จนชาวบ้านซาบซึ่ง
             ในความดีจึงนำของมาให้นางยักจำนวนมาก
           </h3>
-          <button className='px-6 py-2 mt-6 border-2 border-teal-300 rounded-full sukhumvit '>
-            เพิ่มเติม
-          </button>
+
+          <Modal
+            title='ประเภณีตานก๋วยสลาก'
+            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+            titleTagline='เชียงราย'
+            tabs={<KuaySaRarkModal />}
+          />
         </div>
       </div>
     </section>
