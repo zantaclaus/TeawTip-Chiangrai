@@ -1,5 +1,8 @@
 import { images } from 'assets/images';
+import Modal from 'components/common/modal';
+import RoomIcon from '@mui/icons-material/Room';
 import React from 'react';
+import LinJeeModal from './Modal';
 
 const LinJee: React.FC = (): JSX.Element => {
   return (
@@ -23,9 +26,13 @@ const LinJee: React.FC = (): JSX.Element => {
             ทั้งจังหวัดประมาณ 32,000 ไร่ ให้ผลผลิตรวมกันปีละประมาณ 60,000 ตัน
             โดยจะให้ผลผลิตตั้งแต่เดือน พ.ค.-มิ.ย.ปีละเพียงประมาณ 1 เดือน
           </h3>
-          <button className='px-6 py-2 mt-6 border-2 border-teal-300 rounded-full sukhumvit '>
-            เพิ่มเติม
-          </button>
+
+          <Modal
+            title='วัดร่องขุ่น'
+            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+            titleTagline='เชียงราย'
+            tabs={<LinJeeModal />}
+          />
         </div>
         <img src={images.linJee} alt='' className='w-[500px] rounded-xl shadow-xl' />
       </div>
