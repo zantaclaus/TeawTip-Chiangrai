@@ -47,6 +47,13 @@ import kuaySaRarkBg from './kuaySaRarkBg.jpeg';
 import namNgew1 from './namNgew1.jpg';
 import namNgew2 from './namNgew2.jpg';
 import namNgewBg from './namNgewBg.jpg';
+import namNgewModal1 from './namNgewModal1.png';
+import namNgewModal2 from './namNgewModal2.png';
+import namNgewModal3 from './namNgewModal3.png';
+import namNgewModal4 from './namNgewModal4.png';
+import namNgewModal5 from './namNgewModal5.png';
+import namNgewModal6 from './namNgewModal6.png';
+import namNgewModal7 from './namNgewModal7.png';
 import linJee from './linJee.png';
 import linJeeBg from './linJeeBg.png';
 import bongFire from './bongFire.png';
@@ -132,4 +139,11 @@ export const images = {
   watSueaLongTenModal4,
   doiDinDangModal1,
   doiDinDangModal2,
+  namNgewModal1,
+  namNgewModal2,
+  namNgewModal3,
+  namNgewModal4,
+  namNgewModal5,
+  namNgewModal6,
+  namNgewModal7,
 };
