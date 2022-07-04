@@ -77,8 +77,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'sukhumvit'; */
-  font-family: 'Sriracha', cursive;
+  font-family: 'sukhumvit';
+  /* font-family: 'Sriracha', cursive; */
 }
 
 h1 {
@@ -106,21 +106,31 @@ h6 {
 }
 
 .pachautid {
-  font-family: 'pachautid';
+  font-family: 'pachautid', sans-serif;;
 }
 
 .sukhumvit {
-  font-family: 'sukhumvit';
+  font-family: 'sukhumvit', sans-serif;;
 }
 
 .sukhumvit-semibold {
-  font-family: 'sukhumvit-semibold';
+  font-family: 'sukhumvit-semibold', sans-serif;;
 }
 
 .sukhumvit-bold {
-  font-family: 'sukhumvit-bold';
+  font-family: 'sukhumvit-bold', sans-serif;;
 }
 
+.inter {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+/* Hero */
+
+.stroke {
+  -webkit-text-stroke: 2px white;
+}
 
 /* MUI Tabs */
 
