@@ -1,5 +1,8 @@
 import { images } from 'assets/images';
+import Modal from 'components/common/modal';
 import React from 'react';
+import RoomIcon from '@mui/icons-material/Room';
+import KaoSoiModal from './Modal';
 
 const KaoSoi: React.FC = (): JSX.Element => {
   return (
@@ -21,9 +24,12 @@ const KaoSoi: React.FC = (): JSX.Element => {
             แต่ในปัจจุบันร้านอาหารหลายแห่งได้มีการใช้เนื้อหมูแทน
             บางแห่งอาจเพิ่มอาหารทะเลหรือเต้าหู้เป็นส่วนประกอบ
           </h3>
-          <button className='px-6 py-2 mt-4 border-2 border-teal-300 rounded-full sukhumvit relative -right-1/2 -translate-x-1/2'>
-            เพิ่มเติม
-          </button>
+          <Modal
+            title='ข้าวซอย'
+            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+            titleTagline='ต.ป่าอ้อดอนชัย อ.เมืองเชียงราย จ.เชียงราย 57000'
+            tabs={<KaoSoiModal />}
+          />
         </div>
         <div className='flex items-center relative bottom-10'>
           <img
