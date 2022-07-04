@@ -21,6 +21,8 @@ import banDamModal5 from './banDamModal5.jpg';
 import banDamModal6 from './banDamModal6.jpg';
 import doiDinDang from './doiDinDang.png';
 import doiDinDangBg from './doiDinDangBg.png';
+import doiDinDangModal1 from './doiDinDangModal1.png';
+import doiDinDangModal2 from './doiDinDangModal2.png';
 import watSueaLongTen from './watSueaLongTen.png';
 import watSueaLongTenBg from './watSueaLongTenBg.png';
 import watSueaLongTenModal1 from './watSueaLongTenModal1.png';
@@ -29,9 +31,16 @@ import watSueaLongTenModal3 from './watSueaLongTenModal3.png';
 import watSueaLongTenModal4 from './watSueaLongTenModal4.png';
 import hangLe from './hangLe.png';
 import hangLeBg from './hangLeBg.png';
+import hangLeModal1 from './hangLeModal1.jpg';
+import hangLeModal2 from './hangLeModal2.jpg';
+import hangLeModal3 from './hangLeModal3.jpg';
 import kaosoi1 from './kaosoi1.png';
 import kaosoi2 from './kaosoi2.png';
 import kaosoi3 from './kaosoi3.png';
+import kaoSoiModal1 from './kaoSoiModal1.png';
+import kaoSoiModal2 from './kaoSoiModal2.png';
+import kaoSoiModal3 from './kaoSoiModal3.png';
+import kaoSoiModal4 from './kaoSoiModal4.png';
 import kaosoiBg from './kaosoiBg.png';
 import kuaySaRark from './kuaySaRark.jpeg';
 import kuaySaRarkBg from './kuaySaRarkBg.jpeg';
@@ -80,9 +89,16 @@ export const images = {
   header6,
   hangLe,
   hangLeBg,
+  hangLeModal1,
+  hangLeModal2,
+  hangLeModal3,
   kaosoi1,
   kaosoi2,
   kaosoi3,
+  kaoSoiModal1,
+  kaoSoiModal2,
+  kaoSoiModal3,
+  kaoSoiModal4,
   kaosoiBg,
   kuaySaRark,
   kuaySaRarkBg,
@@ -114,4 +130,6 @@ export const images = {
   watSueaLongTenModal2,
   watSueaLongTenModal3,
   watSueaLongTenModal4,
+  doiDinDangModal1,
+  doiDinDangModal2,
 };

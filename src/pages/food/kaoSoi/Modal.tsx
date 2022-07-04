@@ -3,6 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { a11yProps, TabPanel } from 'components/common/modal/TabPanel';
+import { images } from 'assets/images';
 
 const KaoSoiModal = () => {
   const [value, setValue] = React.useState(0);
@@ -56,15 +57,27 @@ const KaoSoiModal = () => {
       <TabPanel value={value} index={1}>
         <h2 className='sukhumvit-semibold mb-2'>วิธีการทำ</h2>
         STEP 1: ปรุงน้ำข้าวซอย <br /> - ตั้งหม้อหรือกระทะใบใหญ่ให้ร้อน ใส่กะทิลงไปเคี่ยวสักพัก
-        ตามด้วยเครื่องแกง จากนั้น เคี่ยวจนกะทิให้แตกมัน <br />
-        - ใส่น่องไก่ลงไปผัดให้เข้ากับกะทิ แล้วเติมกะทิลงไปจนหมด เคี่ยวต่อให้ไก่เปื่อย สัก 30-40 นาที
-        <br />
+        ตามด้วยเครื่องแกง จากนั้น เคี่ยวจนกะทิให้แตกมัน <br />- ใส่น่องไก่ลงไปผัดให้เข้ากับกะทิ
+        แล้วเติมกะทิลงไปจนหมด เคี่ยวต่อให้ไก่เปื่อย สัก 30-40 นาที
+        <div className='my-7 flex justify-center gap-8 items-center'>
+          <img src={images.kaoSoiModal1} alt='' className='w-[45%] rounded-xl shadow-lg' />
+          <img src={images.kaoSoiModal2} alt='' className='w-[45%] rounded-xl shadow-lg' />
+        </div>
         STEP 2 : ลวกเส้น + ทอดเส้นข้าวซอย <br /> - ลวกเส้นข้าวซอยให้นุ่มก่อนนำไปทอดค่ะ
         โดยเราจะนำไปลวกในน้ำเดือด โดยใช้เวลา ประมาณ 8 นาที <br /> - โดยแบ่งเส้นข้าวซอยที่ลวกแล้วสัก
         2 หยิบมือ ผึ่งให้แห้งแล้วนำลงทอดในน้ำมันปาล์ม เดือด ๆ สักพักให้กรอบ แล้วตักขึ้นพักไว้
-        <br />
+        <img
+          src={images.kaoSoiModal3}
+          alt=''
+          className='w-[50%] my-7 mx-auto rounded-xl shadow-lg'
+        />
         STEP 3 : จัดเสิร์ฟ <br /> - ตักเส้นข้าวซอยลวกลงในชาม แล้วตักน้ำข้าวซอย พร้อมน่องไก่ราดลงไป
         <br /> - ตกแต่งด้วยข้าวซอยทอดและต้นหอมผักชีซอย ทานพร้อมพริกผัด หอมแดงซอย และผักกาดดอง
+        <img
+          src={images.kaoSoiModal4}
+          alt=''
+          className='w-[50%] my-7 mx-auto rounded-xl shadow-lg'
+        />
       </TabPanel>
     </Box>
   );

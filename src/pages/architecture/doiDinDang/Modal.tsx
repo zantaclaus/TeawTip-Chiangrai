@@ -3,6 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { a11yProps, TabPanel } from 'components/common/modal/TabPanel';
+import { images } from 'assets/images';
 
 const DoiDinDangModal = () => {
   const [value, setValue] = React.useState(0);
@@ -29,7 +30,7 @@ const DoiDinDangModal = () => {
         TabIndicatorProps={{ style: { backgroundColor: '#14B8A6', color: '#999' } }}
       >
         <Tab label='ข้อมูลสถานที่' {...a11yProps(0)} />
-        <Tab label='สิ่งก่อสร้าง' {...a11yProps(1)} />
+        <Tab label='ภาพรวมตัวบ้าน' {...a11yProps(1)} />
         <Tab label='การเดินทาง' {...a11yProps(2)} />
       </Tabs>
 
@@ -40,10 +41,10 @@ const DoiDinDangModal = () => {
         เย็นสบายตลอดทั้งวันส่วนตัวอาคารถูกสร้างขึ้นให้สอดคล้องกับสิ่งแวดล้อม มีการนำสีแดง
         ของดินผสมเข้าไปในปูนเป็นผนังโทนอุ่น จนทำให้หลายคนคิดว่าเป็นบ้านดิน นอกจากจะทำให้
         เกิดความสวยงามแล้วการใช้ดินผสมลงในปูนยังช่วยให้ประหยัดและเกิดความแข็งแรง อีกด้วย
-        <img src='' alt='' />
+        <img src={images.doiDinDangModal2} alt='' className='my-7 px-2 shadow-xl' />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <h2 className='sukhumvit-semibold mb-2'>สิ่งก่อสร้าง</h2>
+        <h2 className='sukhumvit-semibold mb-2'>ภาพรวมตัวบ้าน</h2>
         ภายในตัวอาคารแบ่งเป็นสัดส่วนได้แก่ โรงปั้นมีการสาธิตผลิตเครื่องปั้นดินเผา และยังเปิด
         โอกาสให้นักท่องเที่ยวได้ชมการทำงานจริง อีกทั้งสามารถสอบถามพูดคุยกับช่างได้อย่างใกล้ชิด
         การปั้นที่นี่เป็นแบบโบราณขึ้นรูปด้วยมือ การปั้น เผา เคลือบ เป็นมิตรกับสิ่งแวดล้อม ทำให้กลาย
@@ -61,6 +62,7 @@ const DoiDinDangModal = () => {
         รวมถึงแจกัน กระถางเครื่องประดับ-ตกแต่งอาคาร 2. ผลงานศิลปะที่แฝงด้วยความรู้สึก จินตนาการ
         และเทคนิคเฉพาะ เมื่อเดินชมงานศิลปะเสร็จ อยากซื้อผลงานติดไม้ติดมือ ที่นี่ก็มี ให้ได้เลือกซื้อ
         มีทั้งจาน ชาม ของใช้ของตกแต่งบ้านต่างๆ มากมาย
+        <img src={images.doiDinDangModal1} alt='' className='my-7 px-2 shadow-xl' />
       </TabPanel>
       <TabPanel value={value} index={2}>
         <h2 className='sukhumvit-semibold mb-2'>การเดินทาง</h2>

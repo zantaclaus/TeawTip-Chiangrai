@@ -3,6 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { a11yProps, TabPanel } from 'components/common/modal/TabPanel';
+import { images } from 'assets/images';
 
 const HangLeModal = () => {
   const [value, setValue] = React.useState(0);
@@ -62,15 +63,30 @@ const HangLeModal = () => {
         <h2 className='sukhumvit-semibold mb-2'>วิธีการทำ</h2>
         STEP 1 : ตำพริกแกง <br />
         นำพริกแห้ง ข่าซอย กระเทียม ตะไคร้ซอย หอมแดง และเกลือ โขลกรวมกันให้ละเอียด
-        หลังจากนั้นใส่กะปิหยาบลงไป โขลกให้ทุกอย่างเข้ากัน ตักขึ้นพักไว้ <br />
+        หลังจากนั้นใส่กะปิหยาบลงไป โขลกให้ทุกอย่างเข้ากัน ตักขึ้นพักไว้
+        <img
+          src={images.hangLeModal1}
+          alt=''
+          className='mt-4 mb-7 w-[50%] mx-auto rounded-xl shadow-lg'
+        />
         STEP 2 : หมักหมู <br />
         นำพริกแกงที่ขโลกไว้มาผสมกับสับปะรด เนื้อสันคอหมูหั่นเต๋า และเนื้อหมูสามชั้นหั่นเต๋า
-        คลุกเคล้าให้เข้ากัน หมักประมาณ 1 ชั่วโมง <br />
+        คลุกเคล้าให้เข้ากัน หมักประมาณ 1 ชั่วโมง
+        <img
+          src={images.hangLeModal2}
+          alt=''
+          className='mt-4 mb-7 w-[50%] mx-auto rounded-xl shadow-lg'
+        />
         STEP 3 : ปรุงแกงฮังเล <br />
         นำหมูที่หมักไว้มาตั้งไฟ ใส่น้ำเล็กน้อย ผัดต่อจนหมูเริ่มสุก คอยเติมน้ำเรื่อยๆ เคี่ยวต่อจน
         หมูเปื่อยได้ที่ ปรุงรสด้วยน้ำมะขามเปียก หลังจากนั้นใส่กระเทียม และขิงซอย คนให้ทุกอย่าง
         เข้ากัน เคี่ยวต่ออีกสักครู่ สุดท้ายใส่ถั่วลิสงคั่ว ปล่อยให้เดือดต่ออีก 15 นาที ตักแกงฮังเล
         เสิร์ฟได้เลย
+        <img
+          src={images.hangLeModal3}
+          alt=''
+          className='mt-4 mb-7 w-[50%] mx-auto rounded-xl shadow-lg'
+        />
       </TabPanel>
     </Box>
   );
