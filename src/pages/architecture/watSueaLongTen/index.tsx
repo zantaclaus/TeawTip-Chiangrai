@@ -1,6 +1,9 @@
 import { images } from 'assets/images';
 import AnimateInView from 'components/common/animateInView';
+import Modal from 'components/common/modal';
 import React from 'react';
+import WatLongSueaTenModal from './Modal';
+import RoomIcon from '@mui/icons-material/Room';
 
 const WatSueaLongTen: React.FC = (): JSX.Element => {
   const variantText = {
@@ -34,9 +37,13 @@ const WatSueaLongTen: React.FC = (): JSX.Element => {
               ที่มีศิลปะของตัววิหารที่สวยงามและมีเอกลักษณ์เป็นศิลปะแนวประยุกต์โดยใช้โทนสีน้ำเงินและสีฟ้าเป็นหลัก
               พระพุทธรูปสีขางองค์ใหญ่ และภาพเขียนฝาผนังที่มีความงดงาม อ่อนช้อย
             </h3>
-            <button className='px-6 py-2 mt-4 border-2 border-teal-300 rounded-full sukhumvit'>
-              เพิ่มเติม
-            </button>
+
+            <Modal
+              title='วัดร่องเสือเต้น'
+              titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+              titleTagline='ต.ริมกก อ.เมืองเชียงราย จ.เชียงราย 57100'
+              tabs={<WatLongSueaTenModal />}
+            />
           </div>
         </AnimateInView>
         <AnimateInView variants={variantImage}>
