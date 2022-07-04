@@ -3,7 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { a11yProps, TabPanel } from 'components/common/modal/TabPanel';
-import { Divider } from '@mui/material';
+import { images } from 'assets/images';
 
 const BanDamModal = () => {
   const [value, setValue] = React.useState(0);
@@ -46,8 +46,11 @@ const BanDamModal = () => {
         เปลือกหอยขนาดใหญ่ และยังมีกระดูกสัตว์ เช่น กระดูกช้าง เป็นต้น ด้วยโทนสีของบ้านที่เป็นสีดำ
         ซึ่งตรงกันข้ามกับวัดร่องขุ่นของ อ.เฉลิมชัย มีคำพูด เปรียบเทียบสองสถานที่นี้ว่า “เฉลิมสร้าง
         สวรรค์ ถวัลย์สร้าง นรก”
-        <br />
-        <Divider sx={{ margin: '20px' }} />
+        <img
+          src={images.banDamModal1}
+          alt=''
+          className='w-[60%] mx-auto my-7 rounded-xl shadow-md'
+        />
         ภายในบริเวณบ้านดำ มีต้นไม้นานาชนิด บรรยากาศที่ร่มรื่น ซึ่งในบริเวณประกอบไป ด้วยบ้านทั้งหมด
         36 หลัง แต่ละหลังจะมีลักษณะที่แตกต่างกันไป สามารถเดินเข้าชม ในบ้านได้เพียง 2-3 หลัง
         ส่วนหลังอื่นๆ มองเข้าไปได้จากหน้าประตูเท่านั้น สิ่งของที่
@@ -58,6 +61,46 @@ const BanDamModal = () => {
       </TabPanel>
       <TabPanel value={value} index={1}>
         <h2 className='sukhumvit-semibold mb-2'>สิ่งก่อสร้างในพิพิธภัณฑ์บ้านดำ</h2>
+        <div className='sukhumvit text-center grid grid-cols-[60%_40%] gap-4 items-center'>
+          <img
+            src={images.banDamModal3}
+            alt=''
+            className='w-[100%] mx-auto mt-6 mb-3 rounded-xl shadow-md'
+          />
+          มหาวิหาร บ้านทรงไทย ล้านนาที่ใหญ่ที่สุดในพิพิธภัณฑ์ เข้าชมด้านในได้
+        </div>
+        <div className='sukhumvit text-center grid grid-cols-[60%_40%] gap-4 items-center'>
+          <img
+            src={images.banDamModal2}
+            alt=''
+            className='w-[100%] mx-auto mt-6 mb-3 rounded-xl shadow-md'
+          />
+          ภายในมหาวิหาร มีภาพวาด ไม้แกะสลัก หนังสัตว์ เขากวาง ซากจระเข้ ฯลฯ
+        </div>
+        <div className='sukhumvit text-center grid grid-cols-[60%_40%] gap-4 items-center'>
+          <img
+            src={images.banDamModal4}
+            alt=''
+            className='w-[100%] mx-auto mt-6 mb-3 rounded-xl shadow-md'
+          />
+          ห้องจิตวิญญาณ (อูบปรภพ) – หยาดน้ำตาบนแก้มกาลเวลา (อูบก๊อกตด)
+        </div>
+        <div className='sukhumvit text-center grid grid-cols-[60%_40%] gap-4 items-center'>
+          <img
+            src={images.banDamModal5}
+            alt=''
+            className='w-[100%] mx-auto mt-6 mb-3 rounded-xl shadow-md'
+          />
+          สิ่งของภายในห้อง หนังจระเข้ เปลือกหอย หนังสัตว์ และ เขาควาย
+        </div>
+        <div className='sukhumvit text-center grid grid-cols-[60%_40%] gap-4 items-center'>
+          <img
+            src={images.banDamModal6}
+            alt=''
+            className='w-[100%] mx-auto mt-6 mb-3 rounded-xl shadow-md'
+          />
+          บ้านดำกาแลเกี่ยวฟ้า
+        </div>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <h2 className='sukhumvit-semibold mb-2'>การเข้าชม</h2>

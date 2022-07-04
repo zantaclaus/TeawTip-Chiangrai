@@ -3,6 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { a11yProps, TabPanel } from 'components/common/modal/TabPanel';
+import { images } from 'assets/images';
 
 const WatLongSueaTenModal = () => {
   const [value, setValue] = React.useState(0);
@@ -44,19 +45,32 @@ const WatLongSueaTenModal = () => {
         อ.เมือง จ.เชียงราย รวมอยู่ด้วย ผลงานดังกล่าวเป็นฝีมือการรังสรรค์ของ นายพุทธา กาบแก้ว หรือ
         สล่านก ศิลปินท้องถิ่นชาวเชียงราย ซึ่งเคยเป็นลูกศิษย์ของ อ.เฉลิมชัย โฆษิตพิพัฒน์
         ศิลปินแห่งชาติ สาขาทัศนศิลป์ ปี พ.ศ.2554
-        <img src='' alt='' />
+        <div className='flex gap-8 justify-center items-center my-7'>
+          <img src={images.watSueaLongTenModal1} alt='' className='w-[30%] rounded-xl shadow-md' />
+          <img src={images.watSueaLongTenModal2} alt='' className='w-[50%] rounded-xl shadow-md' />
+        </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
         <h2 className='sukhumvit-semibold mb-2'>ลักษณะเด่น</h2>
         พระวิหารหลังใหม่ ที่มีศิลปะที่มีความสวยงดงามแปลกตา เป็นศิลปะประยุกต์ที่เป็น เอกลักษณ์
         ใช้เฉดสีเป็นสีน้ำเงินฟ้า รูปแบบของศิลปะส่วนหนึ่งมีความคล้ายกับผลงาน ของ อ.เฉลิมชัย
         โฆษิตพิพัฒน์ และ อ.ถวัลย์ ดัชนีย์ สองศิลปินแห่งชาติชื่อดัง
+        <img
+          src={images.watSueaLongTenModal3}
+          alt=''
+          className='w-[70%] mt-7 mx-auto rounded-xl shadow-md'
+        />
       </TabPanel>
       <TabPanel value={value} index={2}>
         <h2 className='sukhumvit-semibold mb-2'>ประวัติ</h2>
         {
           'วัดร่องเสือเต้น ตั้งอยู่ ในตำบลริมกก อำเภอเมือง จังหวัดเชียงราย โดยตั้งอยู่ริมแม่น้ำกก ฝั่งด้านซ้ายทางทิศตะวันออกของเทศบาลนครเมืองเชียงราย ในอดีตสถานที่แห่งนี้เคยเป็นที่ตั้งของวัดร้าง ได้ถูกบูรณะขึ้นมาใหม่และให้ชื่อว่า“วัดร่องเสือเต้น” เพื่อเป็นศูนย์รวมจิตใจของชาวบ้านในบริเวณบ้านร่องเสือเต้น จุดดึงดูดนักท่องเที่ยวที่สุด “วิหารร่องเสือเต้น” ซึ่งเริ่มก่อสร้างเมื่อวันที่ 27 ตุลาคม 2548 แล้วเสร็จเมื่อ วันที่ 22 มกราคม 2559 เวลาสร้างร่วม 10 ปี ถูกสร้างสรรค์ขึ้นโดย ฝีมือของศิลปินชาวพื้นบ้าน นายพุทธา กาบแก้ว หรือ สล่านกศิษย์และลูกมือของ อาจารย์เฉลิมชัย ผู้สร้างวัดร่องขุน ตัววิหารได้ถูกสร้างด้วยศิลปะแนวศาสนาศิลป์ร่วมสมัย แฝงไว้ด้วยคติธรรมของพระพุทธองค์ นอกจากตัววิหารแล้วภายในวัดยังเป็นที่ประดิษฐาน "พระธาตุเกศแก้วจุฬามณีห้าพระองค์" ซึ่งมีความสูง 20 เมตร โดยยอดขององค์พระธาตุได้บรรจุพระบรมสาริกธาตุ จากสมเด็จพระญาณสังวรสมเด็จพระสังฆราช สกลมหาสงฆปรินายก เป็นอีกจุดหนึ่งที่ไม่ควรพลาด'
         }
+        <img
+          src={images.watSueaLongTenModal4}
+          alt=''
+          className='w-[70%] mt-7 mx-auto rounded-xl shadow-md'
+        />
       </TabPanel>
       <TabPanel value={value} index={3}>
         <h2 className='sukhumvit-semibold mb-2'>การเดินทาง</h2>

@@ -7,12 +7,26 @@ import header6 from './header6.jpeg';
 import hero from './hero.jpeg';
 import temple from './temple.jpeg';
 import wadRongKhun from './wadRongKhun.png';
+import wadRongKhunModal1 from './wadRongKhunModal1.png';
+import wadRongKhunModal2 from './wadRongKhunModal2.png';
+import wadRongKhunModal3 from './wadRongKhunModal3.png';
+import wadRongKhunModal4 from './wadRongKhunModal4.png';
 import banDam from './banDam.png';
 import banDamBg from './banDamBg.png';
+import banDamModal1 from './banDamModal1.jpg';
+import banDamModal2 from './banDamModal2.jpg';
+import banDamModal3 from './banDamModal3.jpg';
+import banDamModal4 from './banDamModal4.jpg';
+import banDamModal5 from './banDamModal5.jpg';
+import banDamModal6 from './banDamModal6.jpg';
 import doiDinDang from './doiDinDang.png';
 import doiDinDangBg from './doiDinDangBg.png';
 import watSueaLongTen from './watSueaLongTen.png';
 import watSueaLongTenBg from './watSueaLongTenBg.png';
+import watSueaLongTenModal1 from './watSueaLongTenModal1.png';
+import watSueaLongTenModal2 from './watSueaLongTenModal2.png';
+import watSueaLongTenModal3 from './watSueaLongTenModal3.png';
+import watSueaLongTenModal4 from './watSueaLongTenModal4.png';
 import hangLe from './hangLe.png';
 import hangLeBg from './hangLeBg.png';
 import kaosoi1 from './kaosoi1.png';
@@ -48,6 +62,12 @@ export const images = {
   wadRongKhun,
   banDam,
   banDamBg,
+  banDamModal1,
+  banDamModal2,
+  banDamModal3,
+  banDamModal4,
+  banDamModal5,
+  banDamModal6,
   doiDinDang,
   doiDinDangBg,
   watSueaLongTen,
@@ -86,4 +106,12 @@ export const images = {
   historyModal1,
   historyModal2,
   historyModal3,
+  wadRongKhunModal1,
+  wadRongKhunModal2,
+  wadRongKhunModal3,
+  wadRongKhunModal4,
+  watSueaLongTenModal1,
+  watSueaLongTenModal2,
+  watSueaLongTenModal3,
+  watSueaLongTenModal4,
 };
