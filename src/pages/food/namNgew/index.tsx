@@ -1,5 +1,8 @@
 import { images } from 'assets/images';
+import Modal from 'components/common/modal';
 import React from 'react';
+import RoomIcon from '@mui/icons-material/Room';
+import NamNgewModal from './Modal';
 
 const NamNgew: React.FC = (): JSX.Element => {
   return (
@@ -16,16 +19,20 @@ const NamNgew: React.FC = (): JSX.Element => {
         </div>
 
         <div className='w-[720px] bg-white rounded-xl px-8 pt-16 pb-8 shadow-xl relative 2xl:w-[620px] '>
-          <h1 className='header mb-3'>น้ำเงียว</h1>
+          <h1 className='header mb-3'>น้ำเงี้ยว</h1>
           <h3 className='tagline'>
             น้ำเงี้ยว หรือ น้ำงิ้ว เป็นอาหารภาคเหนือของประเทศไทย
             เป็นน้ำแกงที่รับประทานกับขนมจีนหรือเส้นก๋วยเตี๋ยว ถ้าเป็นก๋วยเตี๋ยว
             เรียกก๋วยเตี๋ยวน้ำเงี้ยว บางสูตรใช้ถั่วเน่าแข็บย่างไฟ โขลกลงในเครื่องแกง
             บางสูตรใส่เต้าเจี้ยว ชาวไทใหญ่ เรียกอาหารชนิดนี้ว่า “เข้าเส้นน้ำหมากเขือส้ม”
           </h3>
-          <button className='px-6 py-2 mt-4 border-2 border-teal-300 rounded-full sukhumvit relative -right-1/2 -translate-x-1/2'>
-            เพิ่มเติม
-          </button>
+
+          <Modal
+            title='น้ำเงี้ยว'
+            titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
+            titleTagline='ต.ป่าอ้อดอนชัย อ.เมืองเชียงราย จ.เชียงราย 57000'
+            tabs={<NamNgewModal />}
+          />
         </div>
       </div>
     </section>
