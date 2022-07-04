@@ -11,6 +11,7 @@
   }
 }
 
+
 /* Fonts setting */
 
 @font-face {
@@ -117,3 +118,9 @@ h6 {
   font-family: 'sukhumvit-bold';
 }
 
+
+/* MUI Tabs */
+
+.css-bujtcv-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #14B8A6 !important;
+}
