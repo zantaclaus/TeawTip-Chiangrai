@@ -32,7 +32,8 @@ const WadRongKhunModal = (): JSX.Element => {
         <Tab label='ข้อมูลสถานที่' {...a11yProps(0)} />
         <Tab label='ลักษณะเด่น' {...a11yProps(1)} />
         <Tab label='ประวัติ' {...a11yProps(2)} />
-        <Tab label='การเดินทาง' {...a11yProps(3)} />
+        <Tab label='ชมภายใน' {...a11yProps(3)} />
+        <Tab label='การเดินทาง' {...a11yProps(4)} />
       </Tabs>
 
       <TabPanel value={value} index={0}>
@@ -71,6 +72,17 @@ const WadRongKhunModal = (): JSX.Element => {
         />
       </TabPanel>
       <TabPanel value={value} index={3}>
+        <h2 className='sukhumvit-semibold mb-7'>ภายในวัดร่องขุ่น</h2>
+        <a
+          href='https://www.youtube.com/watch?v=52WDG7bxxZQ&t=0s'
+          target='_blank'
+          rel='noreferrer'
+          className='px-7 py-2 border border-teal-300 rounded-full hover:bg-teal-300 active:bg-teal-400'
+        >
+          คลิกเพื่อรับชม Video
+        </a>
+      </TabPanel>
+      <TabPanel value={value} index={4}>
         <h2 className='sukhumvit-semibold mb-2'>การเดินทาง</h2>
         - จักรยาน <br />- มอเตอร์ไซด์ <br />- รถโดยสารประจำทาง <br />- รถยนต์ <br />
         หมายเหตุการเดินทาง: จากตัวเมืองเชียงราย ให้มาทางทิศใต้ ทางไป อ.พาน จ.เชียงราย ทางไป จ.พะเยา

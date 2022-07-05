@@ -5,6 +5,7 @@ import RoomIcon from '@mui/icons-material/Room';
 import HistoryModal from './Modal';
 import AnimateInView from 'components/common/animateInView';
 import { transition } from 'service/transation.service';
+import { Lowlight } from 'components/common/highlight';
 
 const History: React.FC = (): JSX.Element => {
   return (
@@ -24,7 +25,8 @@ const History: React.FC = (): JSX.Element => {
               &nbsp; &nbsp; เป็นจังหวัดที่ตั้งอยู่ทางทิศเหนือสุดของประเทศไทยในเชิงภูมิศาสตร์
               จังหวัดเชียงรายแบ่งการปกครองออกเป็น 18 อำเภอ มีแม่น้ำกก แม่น้ำอิง แม่น้ำรวก
               และแม่น้ำโขง เป็นแม่น้ำสายสำคัญ ทำเลที่ตั้งของจังหวัดเชียงรายอยู่บริเวณรอยต่อระหว่าง
-              ประเทศไทย ประเทศพม่าและประเทศลาวหรือ รู้จักกันในนามของดินแดนสามเหลี่ยมทองคำ
+              ประเทศไทย ประเทศพม่าและประเทศลาวหรือ รู้จักกันในนามของ
+              <Lowlight>ดินแดนสามเหลี่ยมทองคำ</Lowlight> &nbsp;
               ในอดีตเคยเป็นแหล่งผลิตและขนส่งฝิ่นที่สำคัญของโลก
               ปัจจุบันจังหวัดเชียงรายเป็นหนึ่งในสถานที่ท่องเที่ยวสำคัญของประเทศไทย โดยในปี พ.ศ. 2561
               มี จำนวนนักท่องเที่ยวรวมมากเป็นอันดับสองในภาคเหนือ รองจากจังหวัดเชียงใหม่

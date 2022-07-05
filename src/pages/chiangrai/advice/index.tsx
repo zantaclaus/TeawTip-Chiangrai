@@ -5,6 +5,7 @@ import React from 'react';
 import AdviceModal from './Modal';
 import { transition } from 'service/transation.service';
 import AnimateInView from 'components/common/animateInView';
+import { Lowlight } from 'components/common/highlight';
 
 const Advice = () => {
   return (
@@ -20,7 +21,8 @@ const Advice = () => {
           <AnimateInView variants={transition.variantDownToUP}>
             <h1 className='header mb-3'>คำแนะนำในการเที่ยวเชียงราย</h1>
             <h3 className='tagline'>
-              ในช่วงกลางเดือน ต.ค. – พ.ย. จะเป็นช่วงที่ภูชี้ฟ้ามีโอกาสเกิดทะเลหมอกได้มากที่สุด
+              ในช่วงกลางเดือน ต.ค. – พ.ย. จะเป็นช่วงที่ภูชี้ฟ้ามีโอกาสเกิด
+              <Lowlight>ทะเลหมอก</Lowlight>ได้มากที่สุด
               ส่วนจะมากหรือน้อยก็ขึ้นอยู่กับสภาพลมและความใสของท้องฟ้า ถ้าคืนวัน ไหนท้องฟ้าแจ่มไร้เมฆ
               ลมนิ่ง วันนั้นทะเลหมอกจะเยอะมาก แต่ถ้าคืนไหนเมฆเยอะ ลมแรง ทะเลหมอกก็มีน้อย
             </h3>
