@@ -41,7 +41,7 @@ const Hero: React.FC = (): JSX.Element => {
           <div className='absolute w-36 h-2 rounded-full bg-white top-3/4 -right-44 '></div>
 
           <motion.h2 className='text-center text-white sukhumvit-semibold'>
-            โครงการเที่ยวทิพย์ท่องไทยส่องศิลปวัฒนธรรมไปกับโลกไซเบอร์
+            โครงการเที่ยวทิพย์ท่องไทยไปกับโลกไซเบอร์
           </motion.h2>
         </motion.div>
       </div>
