@@ -29,7 +29,7 @@ const LinJeeModal = () => {
         sx={{ borderRight: 1, borderColor: 'divider' }}
         TabIndicatorProps={{ style: { backgroundColor: '#14B8A6', color: '#999' } }}
       >
-        <Tab label='ข้อมูลประเภณี' {...a11yProps(0)} />
+        <Tab label='ข้อมูลประเพณี' {...a11yProps(0)} />
       </Tabs>
 
       <TabPanel value={value} index={0}>
