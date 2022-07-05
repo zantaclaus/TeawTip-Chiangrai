@@ -35,7 +35,7 @@ const KuaySaRark: React.FC = (): JSX.Element => {
             </h3>
 
             <Modal
-              title='ประเภณีตานก๋วยสลาก'
+              title='ประเพณีตานก๋วยสลาก'
               titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
               titleTagline='เชียงราย'
               tabs={<KuaySaRarkModal />}
