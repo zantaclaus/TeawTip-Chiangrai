@@ -50,7 +50,7 @@ const BanDam: React.FC = (): JSX.Element => {
             <Modal
               title='พิพิธภัณฑ์บ้านดำ'
               titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
-              titleTagline='333 ม.13 ต.นางแล อ.เมือง จ.เชีxยงราย 57100'
+              titleTagline='333 ม.13 ต.นางแล อ.เมือง จ.เชียงราย 57100'
               tabs={<BanDamModal />}
             />
           </div>
