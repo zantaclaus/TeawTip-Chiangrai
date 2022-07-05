@@ -17,8 +17,8 @@ const Hero: React.FC = (): JSX.Element => {
           animate={{ opacity: 1, y: 0 }}
         >
           <div className='text-[2.5rem] sukhumvit-bold relative text-teal-400 stroke'>
-            <div className='w-3 h-3 rounded-full bg-teal-400 absolute top-1/2 -translate-y-1/2 -left-10 border border-white'></div>
-            <div className='w-3 h-3 rounded-full bg-teal-400 absolute top-1/2 -translate-y-1/2 -right-10 border border-white'></div>
+            <div className='w-3 h-3 rounded-full bg-teal-400 absolute top-1/2 -translate-y-1/2 -left-10'></div>
+            <div className='w-3 h-3 rounded-full bg-teal-400 absolute top-1/2 -translate-y-1/2 -right-10'></div>
             จังหวัด
           </div>
         </motion.div>
