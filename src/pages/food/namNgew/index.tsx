@@ -35,7 +35,7 @@ const NamNgew: React.FC = (): JSX.Element => {
             <Modal
               title='น้ำเงี้ยว'
               titleIcon={<RoomIcon sx={{ position: 'relative', bottom: '3px' }} />}
-              titleTagline='ต.ป่าอ้อดอนชัย อ.เมืองเชียงราย จ.เชียงราย 57000'
+              titleTagline='เชียงราย'
               tabs={<NamNgewModal />}
             />
           </AnimateInView>
