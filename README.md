@@ -6,11 +6,7 @@ Clone the project
   git clone https://github.com/zantaclaus/TeawTip-Chiangrai.git
 ```
 
-Go to the project directory
-
-```bash
-  cd my-project
-```
+Go to the project directory 
 
 Install dependencies
 
